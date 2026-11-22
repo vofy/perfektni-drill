@@ -6,11 +6,11 @@ Vyhledávání a procvičování testových otázek z FEKT VUT.
 
 - **Hledání** – fulltextové (fuzzy) vyhledávání v otázkách a správných odpovědích, volitelně i nesprávné odpovědi
 - **Drill** – náhodně zamíchané otázky s výběrem odpovědi a okamžitým vyhodnocením
-- LaTeX vzorce (MathJax), obrázky, světlý / tmavý / systémový motiv
+- LaTeX vzorce (KaTeX), obrázky, světlý / tmavý / systémový motiv
 
 ## Technologie
 
-Statický web bez backendu: [Vue 3](https://vuejs.org), [Nuxt UI](https://ui.nuxt.com) (Tailwind CSS), [Vite](https://vite.dev), [Fuse.js](https://fusejs.io), [MathJax](https://www.mathjax.org). Hostováno na GitHub Pages.
+Statický web bez backendu: [Vue 3](https://vuejs.org), [Nuxt UI](https://ui.nuxt.com) (Tailwind CSS), [Vite](https://vite.dev), [Fuse.js](https://fusejs.io), [KaTeX](https://katex.org). Hostováno na GitHub Pages.
 
 ## Vývoj
 

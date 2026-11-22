@@ -47,9 +47,16 @@ export function shuffle(array) {
 }
 
 // v-math="html": renders trusted dataset HTML, fixes root-relative image paths for the
-// deploy base path and typesets \( LaTeX \) with MathJax (loaded in index.html).
+// deploy base path and renders \( inline \) and \[ display \] LaTeX with KaTeX.
+const delimiters = [
+  { left: '\\(', right: '\\)', display: false },
+  { left: '\\[', right: '\\]', display: true },
+]
+// KaTeX (JS + CSS) is loaded only once some text actually contains a formula.
+let katex
+const loadKatex = () => (katex ??= Promise.all([import('katex/contrib/auto-render'), import('katex/dist/katex.min.css')]))
 const render = (el, { value = '' }) => {
   el.innerHTML = value.replace(/(src=["'])\//g, `$1${import.meta.env.BASE_URL}`)
-  window.MathJax?.startup?.promise.then(() => window.MathJax.typesetPromise([el]))
+  if (/\\[([]/.test(value)) loadKatex().then(([{ default: renderMath }]) => renderMath(el, { delimiters, throwOnError: false }))
 }
 export const vMath = { mounted: render, updated: (el, b) => b.value !== b.oldValue && render(el, b) }
