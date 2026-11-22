@@ -1,0 +1,329 @@
+{
+    "title": "Úloha 24",
+    "description": "Přepis z fektušky",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Podstatou této úlohy je měření brzdného napětí elektronů, uvolněných fotony z fotokatody. Brzdné napětí závisí",
+            "answers": {
+                "correct": [
+                    "na frekvenci dopadajícího záření i na velikosti výstupní práce."
+                ],
+                "incorrect": [
+                    "pouze na velikosti výstupní práce, tj. na materiálu fotokatody.",
+                    "pouze na frekvenci dopadajícího elektromagnetického záření.",
+                    "na frekvencí dopadajícího záření, na velikosti výstupní práce a navíc i na vzdálenosti anody od katody.",
+                    "---"
+                ]
+            }
+        },
+        {
+            "title": "Součet kinetické energie fotoelektronu a výstupní práce z povrchu fotokatody je závislý na vlnové délce světla, dopadajícího na fotokatodu. Tato závislost je",
+            "answers": {
+                "correct": [
+                    "nepřímou úměrností"
+                ],
+                "incorrect": [
+                    "přímou úměrností",
+                    "lineární závislostí",
+                    "logaritmickou závislostí",
+                    "kvadratickou závislostí"
+                ]
+            }
+        },
+        {
+            "title": "Brzdné napětí fotoelektronů závisí na intenzitě monochromatického světla, dopadajícího na fotoelektrodu",
+            "answers": {
+                "correct": [
+                    "nezávisí na ní"
+                ],
+                "incorrect": [
+                    "přímo úměrně",
+                    "lineárně",
+                    "kvadraticky",
+                    "exponenciálně"
+                ]
+            }
+        },
+        {
+            "title": "Ze závislosti brzdného napětí fotoelektronů na frekvenci, resp. na vlnové délce dopadajícího světla je zřejmé, že existuje krajní frekvence (resp. vlnová délka), při níž je brzdné napětí nulové a záření tedy vnější fotoefekt nevyvolá. Wolfram má výstupní práci elektronů z povrchu asi 4,5 eV, Planckova konstanta je 6,63.10<sup>-34</sup> J.s, náboj elektronu je -1,6.10<sup>-19</sup> A.s. Nejdelší vlnová délka světla, jež vyvolá na wolframovém povrchu vnější fotoefekt, proto je",
+            "answers": {
+                "correct": [
+                    "276 nm"
+                ],
+                "incorrect": [
+                    "112 nm",
+                    "195 nm",
+                    "240 nm",
+                    "450 nm"
+                ]
+            }
+        },
+        {
+            "title": "Výstupní práce elektronu z kobaltu je 4,18 eV. Vypočtěte mezní vlnovou délku světla, při které nastane fotoelektrický jev. (Planckova konstanta ...",
+            "answers": {
+                "correct": [
+                    "297 nm"
+                ],
+                "incorrect": [
+                    "240 nm",
+                    "450 nm",
+                    "112 nm",
+                    "195 nm"
+                ]
+            }
+        },
+        {
+            "title": "Výstupní práce elektronu je",
+            "answers": {
+                "correct": [
+                    "energie potřebná k uvolnění elektronu z povrchu materiálu s nulovou rychlostí."
+                ],
+                "incorrect": [
+                    "energie potřebná k uvolnění elektonu z materiálu s nenulovou kinetickou energií.",
+                    "energie potřebná k přeskoku elektronu na vyšší energetickou hladinu.",
+                    "energie potřebná k uvolnění elektronu z vnitřku materiálu a jeho přechodu na povrch.",
+                    "energie potřebná k uvolnění elektronů z atomové vazby."
+                ]
+            }
+        },
+        {
+            "title": "Který ze vztahů mezi vlnovou délkou λ , ferkvencí f , periodou T a fázovou rychlostí c vlnění není správný?",
+            "answers": {
+                "correct": [
+                    "λ=cf"
+                ],
+                "incorrect": [
+                    "c=λf",
+                    "f=c/λ",
+                    "λ=c/f",
+                    "c=λ/T"
+                ]
+            }
+        },
+        {
+            "title": "Číselnou hodnotu Planckovy konstanty je možno udávat také v jednotkách",
+            "answers": {
+                "correct": [
+                    "eV.s"
+                ],
+                "incorrect": [
+                    "J.s<sup>-1</sup>",
+                    "W",
+                    "J",
+                    "W.m<sup>-2</sup>"
+                ]
+            }
+        },
+        {
+            "title": "Dojde-li k vnějšímu fotoelektrickému jevu, pak při konstantním napětí mezi anodou a fotokatodou vakuové fotonky závisí velikost fotoproudu na velikosti světelného toku dopadajícího na fotokatodu",
+            "answers": {
+                "correct": [
+                    "přímo úměrně"
+                ],
+                "incorrect": [
+                    "lineárně",
+                    "kvadraticky",
+                    "s vyšší mocninou",
+                    "nezávisí na světelném toku"
+                    
+                ]
+            }
+        },
+        {
+            "title": "Změřením závislosti brzdného napětí fotoelektronů na frekvenci dopadajícího záření můžeme určit nejen Planckovu konstantu, ale i výstupní práci elektronů z fotokatody. Měřéním bylo zjištěno brzdné ňapětí 1,54 V pro vlnovou délku 400 nm a brzdné nápětí 0,51 V pro vlnovou délku 600 nm (e = —1,6.10<sup></sup> C). Výstupní práce elektronů z tétofotokatody je",
+            "answers": {
+                "correct": [
+                    "2,48.10<sup>-19</sup> J"
+                ],
+                "incorrect": [
+                    "2,03.10<sup>-19</sup> J",
+                    "1,8 eV",
+                    "0,88 eV",
+                    "3,11.10<sup>-19</sup> J"
+                ]
+            },
+            "comment": "W = h*f-e*U<sub>b</sub>"
+        },
+        {
+            "title": "Hodnota Planckovy konstanty h = 6,63.10<sup>-34</sup> Js a velikost náboje elektronu e = —1,6.10<sup>-19</sup> A.s jsou obecné konstanty, uváděné v řadě fyzikálních tabulek. Změřením brzdného napětí fotoelektronů, uvolněných monochromatickým světlem známé vlnové délky, můžeme proto vypočítat výstupní práci elektronů z dané fotokatody. Při dopadu monochromatického UV světla vlnové délky 300 nm jsme naměřili brzdné napětí 0,73 V. Výstupní práce elektronů je",
+            "answers": {
+                "correct": [
+                    "5,46.10<sup>-19</sup> J"
+                ],
+                "incorrect": [
+                    "5,46 eV",
+                    "3,80 eV",
+                    "3,80.10<sup>-19</sup> J",
+                    "2,63 eV"
+                ]
+            },
+            "comment": "W = h*f-e*U<sub>b</sub>"
+        },
+        {
+            "title": "V oblasti viditelného světla má největší energii foton příslušející světlu barvy",
+            "answers": {
+                "correct": [
+                    "fialové"
+                ],
+                "incorrect": [
+                    "červené",
+                    "zelené",
+                    "žluté",
+                    "fotony viditelného světla mají stejnou energii"
+                ]
+            }
+        },
+        {
+            "title": "Lze použít při zkoumání vnějšího fotoelektrického jevu místo vakuové fotonky fotonku polovodičovou?",
+            "answers": {
+	    	"correct": [
+		    "Ne"
+		],
+		"incorrect": [
+		    "Ano"
+		]
+	    },
+            "comment": "Zatím bez odpovědi"
+        },
+        {
+            "title": "Elektromagnetické záření vyvolává fotoelektrický jev",
+            "answers": {
+                "correct": [
+                    "jen tehdy, je-li jeho vlnová délka menší než určitá λ<sub>max</sub>"
+                ],
+                "incorrect": [
+                    "jen tehdy, je-li jeho vlnová délka větší než určitá λ<sub>min</sub>",
+                    "jen tehdy, je-li jeho frekvence menší než určitá f<sub>max</sub>",
+                    "vždy"
+                ]
+            }
+        },
+        {
+            "title": "Maximální rychlost fotoelektronů emitovaných z kovu působením monochromatického světla závisí",
+            "answers": {
+                "correct": [
+                    "na energii fotonů a na druhu kovu."
+                ],
+                "incorrect": [
+                    "na rychlosti šíření světla v Prostředí obklopující kov.",
+                    "na počtu fotonů dopadajících na kov a na druhu kovu.",
+                    "na celkové energii světla dopadajícího na kov.",
+                    "pouze na druhu kovu."
+                ]
+            }
+        },
+        {
+            "title": "Einsteinova rovnice pro fotoelektrický jev vyjadřuje zákon zachování",
+            "answers": {
+                "correct": [
+                    "energie"
+                ],
+                "incorrect": [
+                    "hybnosti",
+                    "momentu hybnosti",
+                    "hmotnosti"
+                ]
+            }
+        },
+        {
+            "title": "Foton má",
+            "answers": {
+                "correct": [
+                    "částicové i vlnové vlastnosti"
+                ],
+                "incorrect": [
+                    "pouze vlastnosti částice",
+                    "pouze vlastnosti vlny",
+                    "nenulovou klidovou hmotnost"
+                ]
+            }
+        },
+        {
+            "title": "Energie základního stavu elektronu v určitém atomu je",
+            "answers": {
+                "correct": [
+                    "nejnižší možná"
+                ],
+                "incorrect": [
+                    "kladná",
+                    "závislá na počtu neutronů v jádře",
+                    "závislá na nukleonovém čísle",
+                    "nejvyšší možná"
+                ]
+            }
+        },
+        {
+            "title": "Rychlost uvolněných elektronů při vnějším fotoelektrickém jevu závisí na",
+            "answers": {
+                "correct": [
+                    "vlnové délce světla"
+                ],
+                "incorrect": [
+                    "intenzitě světla",
+                    "velikosti osvětlené plochy"
+                ]
+            }
+        },
+        {
+            "title": "Číselnou hodnotu Planckovy konstanty je možno udávat v jednotkách",
+            "answers": {
+                "correct": [
+                    "eV.s"
+                ],
+                "incorrect": [
+                    "J.s<sup>-1</sup>",
+                    "W",
+                    "W.m<sup>-2</sup>"
+                ]
+            }
+        },
+        {
+            "title": "Co je příčinou toho, že mohou existovat LED diody vyzařující světlo různé barvy?",
+            "answers": {},
+            "comment": "---"
+        },
+        {
+            "title": "Z následujících optoelektronických součástek: vakuová fotonka, plynem plněná fotonka, selenový fotočlánek, polovodičová fotodioda je možné v této úloze použít",
+            "answers": {
+                "correct": [
+                    "pouze vakuovou fotonku"
+                ],
+                "incorrect": [
+                    "pouze selenový fotočlánek",
+                    "pouze polovodičovou diodu",
+                    "všechny uvedené součástky kromě polovodičové diody" ,
+                    "pouze vakuovou nebo plynem plněnou fotonku"
+                ]
+            }
+        },
+        {
+            "title": "Označte nesprávný vztah pro světelná kvanta s hybností p",
+            "answers": {
+                "correct": [
+                    "p=hλ"
+                ],
+                "incorrect": [
+                    "p=E/c",
+                    "p=h/λ",
+                    "p=E/λf",
+                    "p=hf/c"
+                ]
+            }
+        },
+        {
+            "title": "Výstupní práce elektronu z cesia je 1,93 eV. Vzpočtěte mezní vlnovou délku světla",
+            "answers": {
+                "correct": [
+                    "644 nm"
+                ],
+                "incorrect": [
+                    "112 nm",
+                    "195 nm",
+                    "450 nm" ,
+                    "240 nm"
+                ]
+            }
+        }
+    ]
+}

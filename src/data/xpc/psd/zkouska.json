@@ -1,0 +1,2076 @@
+{
+   "title":"Zkouška",
+   "description":"Přepis z Otazky_PSD_semestralka.docx",
+   "tasks":[
+      {
+         "title":"Aditivní zákon v osvětlovací technice …",
+         "answers":{
+            "correct":[
+               "Popisuje chování světla při působení více světelných zdrojů."
+            ],
+            "incorrect":[
+               "Intenzity osvětlení na zkoumané ploše se odečítají.",
+               "Popisuje chování světla při průchodu fresnelovou čočkou."
+            ]
+         }
+      },
+      {
+         "title":"Adresovatelná požární čidla a „chytrá ústředna“",
+         "answers":{
+            "correct":[
+               "Dokáže určit přesné místo poplachu."
+            ],
+            "incorrect":[
+               "Dokáže učit pouze okruhy, kde došlo poplachu.",
+               "Pracuje stejně jako neadresovatelná. Adresovatelné je pouze proto, že pracuje s chytrou ústřednou."
+            ]
+         }
+      },
+      {
+         "title":"Adresovatelná požární čidla komunikují s ústřednou",
+         "answers":{
+            "correct":[
+               "V určitých časových intervalech si posílají informace."
+            ],
+            "incorrect":[
+               "Pouze v případě poplachu.",
+               "Pouze když dojde k poplachu. Posílají si informace do doby, než poplach ustane."
+            ]
+         }
+      },
+      {
+         "title":"Centralizovaný systém je:",
+         "answers":{
+            "correct":[
+               "Každý účastník (senzor, aktor, spotřebič) má vlastní spojení s centrální jednotkou, Účastníci mohou vzájemně komunikovat jen prostřednictvím této centrály."
+            ],
+            "incorrect":[
+               "Každý účastník (senzor, aktor, spotřebič) má vlastní spojení s centrální jednotkou. Účastníci mohou vzájemně komunikovat nezávisle na této centrále.",
+               "Každý účastník (senzor, aktor, spotřebič) má vlastní \"inteligenci\". Neexistuje Žádné centrální řízení."
+            ]
+         }
+      },
+      {
+         "title":"Co je to kalkulace:",
+         "answers":{
+            "correct":[
+               "Stanovení variabilních, fixních a celkových nákladů."
+            ],
+            "incorrect":[
+               "Spekulativní chování.",
+               "Odhad výsledku obchodního podnikání.",
+               "Stanovení skutečného nebo očekávaného výsledku obchodního podnikání."
+            ]
+         }
+      },
+      {
+         "title":"Co to znamená zkratka BACnet?",
+         "answers":{
+            "correct":[
+               "Building Automation and Control Networks"
+            ]
+         }
+      },
+      {
+         "title":"Co vyjadřuje součinitel soudobosti (náročnosti)?",
+         "answers":{
+            "correct":[
+               "Poměr instalovaných výkonů spotřebičů, které jsou současně v chodu k instalovanému výkonu všech spotřebičů"
+            ],
+            "incorrect":[
+               "Hodinové maximum odběru elektrické energie v období celého roku.",
+               "Účinnost přenosu elektrické energie v objektu.",
+               "Určitou pravděpodobnost současného chodu spotřebičů v objektu.",
+               "Poměr skutečného výkonu spotřebičů, které jsou současně v chodu k jejich instalovanému výkonu."
+            ]
+         }
+      },
+      {
+         "title":"Činnost elektrických ochran musí odpovídat následujícím požadavkům:",
+         "answers":{
+            "correct":[
+               "Vysoká spolehlivost, rychlost působení, výběrová schopnost, citlivost a přesnost."
+            ],
+            "incorrect":[
+               "Vysoká spolehlivost, rychlost působení. výběrová schopnost, citlivost a přesnost, nízká cena.",
+               "Vysoká spolehlivost, malá citlivost, rychlost působení."
+            ]
+         }
+      },
+      {
+         "title":"První písmeno v označení vnějšího vlivu značí …",
+         "answers":{
+            "correct":[
+               "Kategorii vnějšího vlivu."
+            ],
+            "incorrect":[
+               "Povahu vnějšího vlivu.",
+               "Třídu vnějšího vlivu."
+            ]
+         }
+      },
+      {
+         "title":"Druhé písmeno v označení vnějšího vlivu značí:",
+         "answers":{
+            "correct":[
+               "Povahu vnějšího vlivu."
+            ],
+            "incorrect":[
+               "Všeobecnou kategorií vnějšího vlivu.",
+               "Třídu vnějšího vlivu."
+            ]
+         }
+      },
+      {
+         "title":"Číslice v označení vnějšího vlivu znamená …",
+         "answers":{
+            "correct":[
+               "Třídu vnějšího vlivu."
+            ],
+            "incorrect":[
+               "Všeobecnou kategorii vnějšího vlivu.",
+               "Povahu vnějšího vlivu."
+            ]
+         }
+      },
+      {
+         "title":"Datová sběrnice může být spojena do uzavřeného kruhu?",
+         "answers":{
+            "correct":[
+               "Nepravda"
+            ],
+            "incorrect":[
+               "Pravda"
+            ]
+         }
+      },
+      {
+         "title":"Datová sběrnice v systémech KNX",
+         "answers":{
+            "correct":[
+               "Přenáší datové telegramy a napájí jednotlivé účastníky stejnosměrným napětím."
+            ],
+            "incorrect":[
+               "Přenáší datové telegramy a napájí jednotlivé účastníky střídavým napětím.",
+               "Přenáší datové telegramy a napájí akční prvky stejnosměrným napětím.",
+               "Přenáší datové telegramy."
+            ]
+         }
+      },
+      {
+         "title":"Datovou sběrnici lze větvit a rozbočovat",
+         "answers":{
+            "correct":[
+               "Pravda"
+            ],
+            "incorrect":[
+               "Nepravda"
+            ]
+         }
+      },
+      {
+         "title":"Decentralizovaný systém v inteligentní elektroinstalaci je:",
+         "answers":{
+            "correct":[
+               "Každý účastník (senzor, aktor, spotřebič) má vlastní \"inteligenci\". Neexistuje žádné centrální řízení"
+            ],
+            "incorrect":[
+               "Každý účastník (senzor, aktor, spotřebič) má vlastní spojení s centrální jednotkou. Účastníci mohou vzájemně komunikovat jen prostřednictvím této centrály.",
+               "Centrální jednotku systému je možno umístit ve kterémkoliv místě instalace (v topologii systému)."
+            ]
+         }
+      },
+      {
+         "title":"Dimenzování vodičů se provádí tak, aby průřez splňoval tyto základní kritéria:",
+         "answers":{
+            "correct":[
+               "Hospodárný průřez vodiče, dovolený úbytek napětí, dovolenou provozní teplotu, správnou funkci ochrany, mechanickou pevnost, dynamickou a tepelnou odolnost vůči zkratovým proudům."
+            ],
+            "incorrect":[
+               "Dynamickou a tepelnou odolnost vůči zkratovým proudům, dovolený úbytek napětí, dovolenou provozní teplotu, správnou funkci ochrany. mechanickou pevnost.",
+               "Hospodárný průřez vodiče, dovolený úbytek napětí, dovolenou provozní teplotu. mechanickou pevnost. dynamickou a tepelnou odolnost vůči zkratovým proudům.",
+               "Hospodárný průřez vodiče, dovolený úbytek napětí, dovolenou provozní teplotu, odpovídající barvu izolace, správnou funkci ochrany, mechanickou pevnost, dynamickou a tepelnou odolnost vůči zkratovým proudům."
+            ]
+         }
+      },
+      {
+         "title":"Dokumentace pro stavební povolení",
+         "answers":{
+            "correct":[
+               "Je stanoven minimální obsah dokumentace vyhláškou."
+            ],
+            "incorrect":[
+               "Nejsou stanoveny minimální požadavky.",
+               "Co bude obsahovat dokumentace, rozhodne investor."
+            ]
+         }
+      },
+      {
+         "title":"Doporučené minimální rozmístění čidel EPS:",
+         "answers":{
+            "correct":[
+               "Ložnice, dětský pokoj"
+            ],
+            "incorrect":[
+               "Pokoje, ložnice, chodba",
+               "Technické místnosti, ložnice, chodba, obývací pokoj"
+            ]
+         }
+      },
+      {
+         "title":"Ekvipotenciální přípojnice je součást:",
+         "answers":{
+            "correct":[
+               "Systémové elektroinstalace pro připojení potenciálu"
+            ],
+            "incorrect":[
+               "Hlavní rozváděčová přípojnice pro připojení fázového vodiče.",
+               "Systému ochrany proti přepětí."
+            ]
+         }
+      },
+      {
+         "title":"EPS musí být členěna do tolika sekcí, kolik je požárních úseků pro odvětrání",
+         "answers":{
+            "correct":[
+               "Ne"
+            ],
+            "incorrect":[
+               "Ano"
+            ]
+         }
+      },
+      {
+         "title":"Existuji dva základní typy sběrnicových systémů:",
+         "answers":{
+            "correct":[
+               "Centralizované a decentralizované systémy"
+            ],
+            "incorrect":[
+               "Otevřené a uzavřené systémy",
+               "Klasické a inteligentní systémy"
+            ]
+         }
+      },
+      {
+         "title":"Funkce, která provede sesouhlasení obsahu výkresu se seznamem spotřebičů se nazývá",
+         "answers":{
+            "correct":[
+               "Inventarizace spotřebičů"
+            ],
+            "incorrect":[
+               "Změna zařízení",
+               "Aktualizace seznamu spotřebičů",
+               "Specifikace"
+            ]
+         }
+      },
+      {
+         "title":"Funkce, která zabraňuje v sběrnicových systémech infomačnímu chaosu a určuje, který telegram kterému prvku patři se nazývá",
+         "answers":{
+            "correct":[
+               "Adresace"
+            ],
+            "incorrect":[
+               "Identifikace",
+               "Separace"
+            ]
+         }
+      },
+      {
+         "title":"Grafický modul systému EIProCAD pro projektování svorkových schémat rozváděčů měření a regulace — řidičích systém:",
+         "answers":{
+            "correct":[
+               "ELM"
+            ],
+            "incorrect":[
+               "ETM",
+               "ELN",
+               "ELIK"
+            ]
+         }
+      },
+      {
+         "title":"Grafický modul systému EIProCAD, ktery řeší návrh dispozičního schématu silnoproudu se nazývá:",
+         "answers":{
+            "correct":[
+               "ELJ"
+            ],
+            "incorrect":[
+               "ELJE",
+               "ELN",
+               "ETS"
+            ]
+         }
+      },
+      {
+         "title":"Hybridní systémy jsou:",
+         "answers":{
+            "correct":[
+               "Kombinace centralizovaných a decentralizovaných systémů."
+            ],
+            "incorrect":[
+               "Kombinace klasické a inteligentní elektroinstalace.",
+               "Kombinace světelných a zásuvkových obvodů."
+            ]
+         }
+      },
+      {
+         "title":"Informace je na napájecí napětí namodulována, přičemž impulz je interpretován jako logická",
+         "answers":{
+            "correct":[
+               "Logická 1"
+            ],
+            "incorrect":[
+               "Logická 0"
+            ]
+         }
+      },
+      {
+         "title":"Informace si prvky v inteligentní elektroinstalaci předávají po:",
+         "answers":{
+            "correct":[
+               "Datové sběrnici"
+            ],
+            "incorrect":[
+               "Kabelovém vedení",
+               "Kroucené dvojlince",
+               "Datovém vedení"
+            ]
+         }
+      },
+      {
+         "title":"Intenzitu osvětlení v rodinném domě určuje:",
+         "answers":{
+            "correct":[
+               "Majitel, ale musí být dodržena minimální hodnota osvětlení."
+            ],
+            "incorrect":[
+               "Pouze majitel",
+               "Normy"
+            ]
+         }
+      },
+      {
+         "title":"Jak chrání zařízení nadproudové relé:",
+         "answers":{
+            "correct":[
+               "Dává povel k vypnuti. Vypínací schopnost zkratových proudů je malá."
+            ],
+            "incorrect":[
+               "Chrání před nadproudy a velkými zkratovými proudy (až 20 In).",
+               "Obdobná konstrukce jako u jističe, ale je nutno předřadit relé pojistky."
+            ]
+         }
+      },
+      {
+         "title":"Jak je definována efektivní hodnota proudu?",
+         "answers":{
+            "correct":[
+               "Je to hodnota střídavého proudu, která způsobí stejné oteplení na daném rezistoru R jako stejnosměrný proud o stejné velikosti."
+            ],
+            "incorrect":[
+               "Je to hodnota střídavého proudu, která odpovídá prošlému náboji daným místem za dobu půlperiody střídavého sinusového proudu.",
+               "Je to hodnota střídavého proudu odpovídající prošlému náboji za dobu jedné periody.",
+               "Je to hodnota střídavého proudu, jenž odpovídá elektrickému náboji protečeným daným místem obvodu za jednu periodu."
+            ]
+         }
+      },
+      {
+         "title":"Jak se jmenuje nejrozšířenější standard inteligentní elektroinstalace v Evropě?",
+         "answers":{
+            "correct":[
+               "KNX"
+            ],
+            "incorrect":[
+               "Egon",
+               "Inels",
+               "EIB:"
+            ]
+         }
+      },
+      {
+         "title":"Jak se nazývá dokument kde jsou popsány hlavní technické informace, postup provádění prací atd.?",
+         "answers":{
+            "correct":[
+               "Technická zpráva"
+            ],
+            "incorrect":[
+               "Hlavní zpráva",
+               "Technická práva",
+               "Technická hlavní zpráva"
+            ]
+         }
+      },
+      {
+         "title":"Jak se nazývá skupina zařízení, které systému inteligentní elektroinstalaci poskytuji informace (povely)?",
+         "answers":{
+            "correct":[
+               "Senzory"
+            ],
+            "incorrect":[
+               "Tlačítka",
+               "Snímače",
+               "Aktory"
+            ]
+         }
+      },
+      {
+         "title":"Jak souvisí světelný tok světelného zdroje s napětím?",
+         "answers":{
+            "correct":[
+               "Přímo úměrně"
+            ],
+            "incorrect":[
+               "S druhou mocninou",
+               "S druhou odmocninou",
+               "S odmocninou ze dvou"
+            ]
+         }
+      },
+      {
+         "title":"Jak vypočteme teplo ve vodiči způsobené průchodem proudu?",
+         "answers":{
+            "correct":[
+               "R.I^2.t"
+            ],
+            "incorrect":[
+               "m. c. dt",
+               "R.I.t",
+               "U.I.t^2",
+               "U.I^2.t"
+            ]
+         }
+      },
+      {
+         "title":"Jak závisí síla mezi dvěma vodiči, jimiž prochází proud na jejich vzájemné vzdálenosti?",
+         "answers":{
+            "correct":[
+               "Nepřímo úměrně"
+            ],
+            "incorrect":[
+               "Lineárně",
+               "S druhou mocninou vzájemné vzdálenosti",
+               "Přímo úměrně"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je minimální vzdálenost zásuvky s krytím IP 20 od sprchového koutu?",
+         "answers":{
+            "correct":[
+               "60cm od hrany sprchy"
+            ],
+            "incorrect":[
+               "120cm od zdroje vody",
+               "100cm od zdroje vody"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je minimální vzdálenost zásuvky s krytím IP 20 od umyvadla?",
+         "answers":{
+            "correct":[
+               "60 cm"
+            ],
+            "incorrect":[
+               "50 cm",
+               "120 cm"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je šířka svislé instalační zóny v domě?",
+         "answers":{
+            "correct":[
+               "200 mm"
+            ],
+            "incorrect":[
+               "150 mm",
+               "300 mm",
+               "450 mm"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je šířka vodorovné instalační zóny v domech?",
+         "answers":{
+            "correct":[
+               "300 mm"
+            ],
+            "incorrect":[
+               "450 mm",
+               "150 mm",
+               "200 mm"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je velikost oka mřížové soustavy pro třídu LPS IV?",
+         "answers":{
+            "correct":[
+               "20x20 m"
+            ],
+            "incorrect":[
+               "40x40 m",
+               "30x30 m",
+               "10x15 m"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je závislost výkonnosti elektroinstalace na pořizovací ceně u inteligentních elektroinstalací?",
+         "answers":{
+            "correct":[
+               "Lineárně"
+            ],
+            "incorrect":[
+               "Přibližně kvadratická",
+               "Přibližně kubická"
+            ]
+         }
+      },
+      {
+         "title":"Jaké DPH se používá při placení práce?",
+         "answers":{
+            "correct":[
+               "15% u obytných domů / objektů k bydlení, 21% u komerčních objektů"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je referenční teplota pro výpočet zatěžovacího proudu pro kabely uložené ve vzduchu?",
+         "answers":{
+            "correct":[
+               "30 °C"
+            ],
+            "incorrect":[
+               "18 °C",
+               "26 °C",
+               "20 °C"
+            ]
+         }
+      },
+      {
+         "title":"Jaké jsou hlavní část bleskosvodu?",
+         "answers":{
+            "correct":[
+               "Jímač, svod, zemnič"
+            ],
+            "incorrect":[
+               "Jímač, svod, ochranný úhelník, zemnič",
+               "Mřížová soustava, zkušební svorka, zemnič",
+               "Jímač, zkušební svorka, zemnič"
+            ]
+         }
+      },
+      {
+         "title":"Jaké označení nese normativní standard v oblasti systémových elektroinstalaci?",
+         "answers":{
+            "correct":[
+               "KNX"
+            ],
+            "incorrect":[
+               "NKX",
+               "ISO 9006"
+            ]
+         }
+      },
+      {
+         "title":"Jaké spouště má jistič?",
+         "answers":{
+            "correct":[
+               "Elektromagnetickou a tepelnou"
+            ],
+            "incorrect":[
+               "tepelnou a nadproudovou",
+               "zkratovou a elektromagnetickou"
+            ]
+         }
+      },
+      {
+         "title":"Jako hlavní vypínací prvek v rozvaděči musí být:",
+         "answers":{
+            "correct":[
+               "Vypínač nebo jistič"
+            ],
+            "incorrect":[
+               "Jistič",
+               "Vypínač"
+            ]
+         }
+      },
+      {
+         "title":"Jakou úsporu lze očekávat při použiti inteligentních systémů oproti klasické elektroinstalaci?",
+         "answers":{
+            "correct":[
+               "30%"
+            ],
+            "incorrect":[
+               "15%",
+               "25%",
+               "35%",
+               "20%"
+            ]
+         }
+      },
+      {
+         "title":"Jaký je maximální počet oddílů v topologií systému KNX?",
+         "answers":{
+            "correct":[
+               "15"
+            ],
+            "incorrect":[
+               "13",
+               "12",
+               "16"
+            ]
+         }
+      },
+      {
+         "title":"Jaký maximální výkon 3f asynchronního motoru můžeme přímo připojit na 3f zásuvku?",
+         "answers":{
+            "correct":[
+               "3 kW"
+            ],
+            "incorrect":[
+               "4 kW",
+               "7,5 kW",
+               "10 kW"
+            ]
+         }
+      },
+      {
+         "title":"Jaký je poloměr valící se koule pro třídu LPS IV?",
+         "answers":{
+            "correct":[
+               "60 m"
+            ],
+            "incorrect":[
+               "30 m",
+               "45 m",
+               "70 m"
+            ]
+         }
+      },
+      {
+         "title":"Jakým napětím napájí sběrnice KNX jednotlivé účastníky?",
+         "answers":{
+            "correct":[
+               "21 až 29 V"
+            ],
+            "incorrect":[
+               "25 V",
+               "12 V",
+               "24 V",
+               "14 V"
+            ]
+         }
+      },
+      {
+         "title":"Jakým typem charakteristiky jističe jistíme obvykle vedení?",
+         "answers":{
+            "correct":[
+               "B"
+            ],
+            "incorrect":[
+               "D",
+               "G",
+               "C"
+            ]
+         }
+      },
+      {
+         "title":"Je možné pomocí klasické elektroinstalace uskutečnit světelné scény a základní řízení osvětlení?",
+         "answers":{
+            "correct":[
+               "Ano"
+            ],
+            "incorrect":[
+               "Ne"
+            ]
+         }
+      },
+      {
+         "title":"Je možné provozovat datové přenosy po silovém vedení:",
+         "answers":{
+            "correct":[
+               "Ano"
+            ],
+            "incorrect":[
+               "Ne",
+               "Jen pokud se jedná o síť s kmitočtem 60 Hz.",
+               "Ano, ale jen po krátkou dobu"
+            ]
+         }
+      },
+      {
+         "title":"Je nutné použít v objektu všechny 3 stupně (T1, T2, T3) přepěťových ochran, abychom ochránili počítač před přepětím?",
+         "answers":{
+            "correct":[
+               "Ne"
+            ],
+            "incorrect":[
+               "Ano"
+            ]
+         }
+      },
+      {
+         "title":"Je proudový chránič ochrana základní?",
+         "answers":{
+            "correct":[
+               "Nepravda"
+            ],
+            "incorrect":[
+               "Pravda"
+            ]
+         }
+      },
+      {
+         "title":"Je systémová elektroinstalace ekonomicky výhodná?",
+         "answers":{
+            "correct":[
+               "Ano, ale za určitých předpokladů"
+            ],
+            "incorrect":[
+               "Ne",
+               "Ano"
+            ]
+         }
+      },
+      {
+         "title":"K čemu je potřebná výběrová tabulka u systému KNX?",
+         "answers":{
+            "correct":[
+               "Rozdělování telegramů do jednotlivých oddílů"
+            ],
+            "incorrect":[
+               "Pro výběr telegramů, které jsou určeny pouze pro senzory",
+               "Vypínání nepotřebných účastníků v systému",
+               "Pro výběr ovládacích funkcí"
+            ]
+         }
+      },
+      {
+         "title":"K čemu slouží u inteligentního systému Ego-n sekundární sběrnice?",
+         "answers":{
+            "correct":[
+               "Pro připojení přístrojů Ego-n Plus jako jsou moduly LAN a GSM"
+            ],
+            "incorrect":[
+               "Není potřebná",
+               "Pro rozšíření systému o dalších 255 prvků"
+            ]
+         }
+      },
+      {
+         "title":"Kolik senzorů a aktorů lze připojit na sběrnici na jeden řídící modulu inteligentního systému EGON?",
+         "answers":{
+            "correct":[
+               "64"
+            ],
+            "incorrect":[
+               "255",
+               "25"
+            ]
+         }
+      },
+      {
+         "title":"Kolik svodů musí mít minimálně na domě?",
+         "answers":{
+            "correct":[
+               "2"
+            ]
+         }
+      },
+      {
+         "title":"Kolik žil sběrnice je potřeba pro provoz systémové elektroinstalace KNX/EIB",
+         "answers":{
+            "correct":[
+               "2"
+            ],
+            "incorrect":[
+               "1",
+               "3",
+               "4"
+            ]
+         }
+      },
+      {
+         "title":"Kompaktní jističe obsahují následovní typy spouští:",
+         "answers":{
+            "correct":[
+               "Zkratová a tepelná"
+            ],
+            "incorrect":[
+               "Elektromagnetická, polovodičová",
+               "Tepelná, bimetalová",
+               "Zkratová a elektromagnetická"
+            ]
+         }
+      },
+      {
+         "title":"Koupelnách muže být zásuvka umístěna od hrany umývacího prostoru vany min",
+         "answers":{
+            "correct":[
+               "60 cm"
+            ],
+            "incorrect":[
+               "70 cm",
+               "40 cm",
+               "50 cm"
+            ]
+         }
+      },
+      {
+         "title":"Která z následujících skupin vypínačů nelze použít na ovládání ze tří míst:",
+         "answers":{
+            "correct":[
+               "Sériový, sériový, křížový"
+            ],
+            "incorrect":[
+               "Střídavý, střídavý dvojitý, křížový",
+               "Střídavý, střídavý, křížový"
+            ]
+         }
+      },
+      {
+         "title":"Které zásuvkové obvody nemusí být připojeny přes proudový chránič?",
+         "answers":{
+            "correct":[
+               "Pouze zásuvky v uzavřených technických místnostech, kam má přístup pouze proškolený personál"
+            ],
+            "incorrect":[
+               "Musí být všechny",
+               "Ty které jsou v dostatečné výšce nad zemi"
+            ]
+         }
+      },
+      {
+         "title":"Který z uvedených systémů je nejvhodnější pro použití v domovní elektroinstalaci?",
+         "answers":{
+            "correct":[
+               "INELS"
+            ],
+            "incorrect":[
+               "BACnet",
+               "KNX",
+               "LonWorks",
+               "TAC"
+            ]
+         }
+      },
+      {
+         "title":"Lze jednofázový proudový chránič použit v sít TN-C?",
+         "answers":{
+            "correct":[
+               "Ne jednofázový proudový chránič nelze použít v síti TN-C."
+            ],
+            "incorrect":[
+               "Ano, jednofázový proudový chránič tze použít v síti TN-C, musí však být připojen vodičem o průřezu vyšším než 10 mm<sup>2</sup>",
+               "Ano, jednofázový proudový chránič lze použít v síti TN-C."
+            ]
+         }
+      },
+      {
+         "title":"Lze použít křížový přepínač č. 7 pro ovládání osvětlení ze dvou míst?",
+         "answers":{
+            "correct":[
+               "Ne."
+            ],
+            "incorrect":[
+               "Ano.",
+               "Pouze v kombinaci se střídavým přepínačem č. 6.",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"Mezi výhody výbojových světelných zdrojů patří",
+         "answers":{
+            "correct":[
+               "Vysoká účinnost přeměny eklektické energie na světelnou."
+            ],
+            "incorrect":[
+               "Závislost světelného toku na teplotě okolního prostředí.",
+               "Vysoká účinnost přeměny eklektické energie na tepelnou"
+            ]
+         }
+      },
+      {
+         "title":"Minimální doporučené rozmístění požárních hlásičů v obytné budově je:",
+         "answers":{
+            "correct":[
+               "V místnosti ložnice a dětského pokoje."
+            ],
+            "incorrect":[
+               "V místnosti kde se shromažďují lidé nejčastěji.",
+               "V každé místnosti."
+            ]
+         }
+      },
+      {
+         "title":"Musí být světelné obvody v rodinném domě chráněny proudovým chráničem?",
+         "answers":{
+            "correct":[
+               "Ano."
+            ],
+            "incorrect":[
+               "Pouze světelné obvody v koupelnách.",
+               "Ne."
+            ]
+         }
+      },
+      {
+         "title":"Nejdůležitější údaj seznamu spotřebičů je:",
+         "answers":{
+            "correct":[
+               "Identifikační číslo"
+            ],
+            "incorrect":[
+               "Název",
+               "Úroveň",
+               "Rozváděč"
+            ]
+         }
+      },
+      {
+         "title":"Nejdůležitějším požadavkem na silový elektrický obvod je …",
+         "answers":{
+            "correct":[
+               "Bezpečnost."
+            ],
+            "incorrect":[
+               "Spolehlivost",
+               "Hospodárnost"
+            ]
+         }
+      },
+      {
+         "title":"Ochrání samostatná přepěťová ochrana stupně T3(D) počítač, když bude umístěna hned u něj?",
+         "answers":{
+            "correct":[
+               "Ano."
+            ],
+            "incorrect":[
+               "Ne.",
+               "Pouze v případě že bude počítač vzdálen od rozvaděče max. 50m."
+            ]
+         }
+      },
+      {
+         "title":"Ochranný vodič nesmí být použit",
+         "answers":{
+            "correct":[
+               "Zemnící vodič"
+            ],
+            "incorrect":[
+               "Samostatný zpětný vodič"
+            ]
+         }
+      },
+      {
+         "title":"Po datové sběrnici se přenášejí všechny ovládací signály v určité kódované formě. Tyto signály se nazývají:",
+         "answers":{
+            "correct":[
+               "Datové telegramy"
+            ],
+            "incorrect":[
+               "Signály",
+               "Řídicí signály",
+               "Komunikační signály"
+            ]
+         }
+      },
+      {
+         "title":"Popište řazení vypínačů pro ovládání jednoho světelného obvodu ze tří míst.",
+         "answers":{
+            "correct":[
+               "č.6, č.7, č.6"
+            ],
+            "incorrect":[
+               "č.7, č.6, č.7",
+               "č.6, č.5, č.6"
+            ]
+         }
+      },
+      {
+         "title":"Pro domovní instalaci ze použít pojistku značení:",
+         "answers":{
+            "correct":[
+               "gG"
+            ],
+            "incorrect":[
+               "gTr",
+               "gF",
+               "aM"
+            ]
+         }
+      },
+      {
+         "title":"Pro kvalitativní vyhodnocení faktoru oslnění ve vnějších prostorách se v praxi počítá činitel",
+         "answers":{
+            "correct":[
+               "UGR"
+            ],
+            "incorrect":[
+               "GER",
+               "UGE",
+               "UG"
+            ]
+         }
+      },
+      {
+         "title":"Pro ovládání osvětlení z více míst se v obvodu zapojí:",
+         "answers":{
+            "correct":[
+               "Dva střídavé přepínače č. 6 a libovolný počet křížových přepínačů č. 7."
+            ],
+            "incorrect":[
+               "Dva křížové přepínače č. 7 a libovolný počet střídavých přepínačů č. 6.",
+               "Jeden sériový spínač, jeden střídavý přepínač a jeden křížový přepínač."
+            ]
+         }
+      },
+      {
+         "title":"Pro stavební povolení jsou potřeba hodnoty minimální osvětlení v místnostech",
+         "answers":{
+            "correct":[
+               "Nepravda"
+            ],
+            "incorrect":[
+               "Pravda"
+            ]
+         }
+      },
+      {
+         "title":"Program na rozpočet a kalkulaci?",
+         "answers":{
+            "correct":[
+               "Verox (výrobce Astra Zlín)"
+            ]
+         }
+      },
+      {
+         "title":"Program OCEP je účinný nástroj pro podporu",
+         "answers":{
+            "correct":[
+               "Rozpočtu a kalkulace projektu"
+            ],
+            "incorrect":[
+               "Projektování rozváděčů",
+               "Osvětlení komunikací",
+               "Projektování venkovního osvětlení"
+            ]
+         }
+      },
+      {
+         "title":"Program pro programování a „oživení“ inteligentní elektroinstalace KNX se nazývá.",
+         "answers":{
+            "correct":[
+               "ETS"
+            ],
+            "incorrect":[
+               "Inels Designer",
+               "EES",
+               "lnels Manager"
+            ]
+         }
+      },
+      {
+         "title":"Proudový chránič se v domovní elektroinstalaci používá:",
+         "answers":{
+            "correct":[
+               "Na všechny zásuvkové vývody a světelné vývody v koupelnách"
+            ],
+            "incorrect":[
+               "Není ho nutné instalovat do nových instalací na zásuvkové obvody",
+               "Pouze na zásuvkové a světelné vývody v koupelně a kuchyni"
+            ]
+         }
+      },
+      {
+         "title":"Provedením elektrického rozvodu nesmí vznikat:",
+         "answers":{
+            "correct":[
+               "Nebezpečí pro okolí"
+            ],
+            "incorrect":[
+               "Možnost dodávky elektrické energie",
+               "Provozní spolehlivost v daném prostředí při určeném způsobu provozu a vlivu prostředí"
+            ]
+         }
+      },
+      {
+         "title":"Při návrhu a výpočtu umělého osvětlení se používá …",
+         "answers":{
+            "correct":[
+               "Toková metoda."
+            ],
+            "incorrect":[
+               "Metoda jednoho bodu.",
+               "Tokyho metoda."
+            ]
+         }
+      },
+      {
+         "title":"Při programování systému Ego-n ručně lze …",
+         "answers":{
+            "correct":[
+               "Nastavovat spínání a pouze základní funkce bez blokování."
+            ],
+            "incorrect":[
+               "Nastavovat spínání a libovolné blokování a čas dle potřeby",
+               "Nastavit spínání a libovolné blokování spínacích členů ale čas nelze nastavit dle potřeby."
+            ]
+         }
+      },
+      {
+         "title":"Při zapojení asynchronního motoru pomocí přepínače hvězda trojúhelník, se vzájemně přepínají stykače. Jak je zapojeno vinutí motoru při rozběhu?",
+         "answers":{
+            "correct":[
+               "Do hvězdy"
+            ],
+            "incorrect":[
+               "Do trojúhelníka",
+               "Do lomené hvězdy"
+            ]
+         }
+      },
+      {
+         "title":"Při zapojení do kruhu u sítě založené na kroucené dvoulince dojde:",
+         "answers":{
+            "correct":[
+               "K prudké degradaci kvality přenosu na síti."
+            ],
+            "incorrect":[
+               "Ke zvýšení spolehlivosti přenosu dat.",
+               "Ke zvýšení rychlosti přenosu dat."
+            ]
+         }
+      },
+      {
+         "title":"Přistroj, který slouží k ovládání dvou světelných okruhů z jednoho místa, se nazývá:",
+         "answers":{
+            "correct":[
+               "Sériový přepínač"
+            ],
+            "incorrect":[
+               "Skupinový přepínač",
+               "Dvoupólový vypínač",
+               "Střídavý vypínač"
+            ]
+         }
+      },
+      {
+         "title":"Rozvodné krabice a svorkovnice mají zůstat vždy:",
+         "answers":{
+            "correct":[
+               "Přístupné"
+            ],
+            "incorrect":[
+               "Schované pod omítkou",
+               "Vždy rozpojené"
+            ]
+         }
+      },
+      {
+         "title":"Rozvody analogové televize",
+         "answers":{
+            "correct":[
+               "Provádí se pomocí koaxiálního kabelu a u každé zásuvky musí být odbočující člen"
+            ],
+            "incorrect":[
+               "Provádí se pomocí koaxiálního kabelu a zásuvky se připojují bez odbočujícího členu",
+               "Rozvody se provádí pouze paprskovitě"
+            ]
+         }
+      },
+      {
+         "title":"Rozvody LAN sítě se provádějí:",
+         "answers":{
+            "correct":[
+               "Paprskově"
+            ],
+            "incorrect":[
+               "Okruhově do 10 zásuvek",
+               "Paprskově ale mohu připojit vice zásuvek na okruh (max. 10)"
+            ]
+         }
+      },
+      {
+         "title":"Selektivita je:",
+         "answers":{
+            "correct":[
+               "Koordinace nastavení charakteristik ochran jisticích přístrojů tak, aby porucha vzniklá v určitém místě rozvodu byla selektivně odepnuta pouze jisticím přístrojem bezprostředně nad místem poruchy, a to bez vybavení ostatních nadřazených jisticích prvků rozvodu, tedy při zachování funkčnosti zbytých částí rozvodu."
+            ],
+            "incorrect":[
+               "Koordinace nastavení charakteristik ochran jisticích přístrojů tak, aby porucha vzniklá v určitém místě rozvodu byla selektivně odepnuta pouze jisticím přístrojem nejvzdálenějším od místa poruchy, a to bez vybavení ostatních bližších jisticích prvků rozvodu, tedy při zachování funkčnosti zbytých částí rozvodu.",
+               "Selektivita je biotechnologická metoda šlechtění a chovu selat."
+            ]
+         }
+      },
+      {
+         "title":"Skupinová adresa je:",
+         "answers":{
+            "correct":[
+               "Rozlišení konkrétních funkcí"
+            ],
+            "incorrect":[
+               "Rozlišení centrálních funkcí",
+               "Identifikace skupiny senzorů v systému",
+               "Jednoznačná identifikace účastníka v systému"
+            ]
+         }
+      },
+      {
+         "title":"Software pro návrh systémové instalace INELS se nazývá:",
+         "answers":{
+            "correct":[
+               "Inels designer"
+            ],
+            "incorrect":[
+               "Inels manager",
+               "NikoSoft",
+               "Inels software"
+            ]
+         }
+      },
+      {
+         "title":"Software pro oživení složitějších instalaci systému Ego-n se nazývá:",
+         "answers":{
+            "correct":[
+               "Ego-n Asistent"
+            ],
+            "incorrect":[
+               "Ego-n Manager",
+               "ETS3",
+               "INELS manager"
+            ]
+         }
+      },
+      {
+         "title":"Software pro programování a návrh systémové elektroinstalace KNX se nazývá:",
+         "answers":{
+            "correct":[
+               "ETS"
+            ],
+            "incorrect":[
+               "EST",
+               "KNX soft",
+               "Software"
+            ]
+         }
+      },
+      {
+         "title":"Souběh datového a silového vedení …",
+         "answers":{
+            "correct":[
+               "Je možný, ale nedoporučuje se."
+            ],
+            "incorrect":[
+               "Je technicky nemožný",
+               "Je zakázaný"
+            ]
+         }
+      },
+      {
+         "title":"Spínaní nebo spojitou regulaci na výstupu v inteligentní elektroinstalace zabezpečují",
+         "answers":{
+            "correct":[
+               "Aktory"
+            ],
+            "incorrect":[
+               "Regulátory",
+               "Spínače",
+               "Vypínače"
+            ]
+         }
+      },
+      {
+         "title":"Střídavý přepínač je přepínač s číslem řazení:",
+         "answers":{
+            "correct":[
+               "6"
+            ],
+            "incorrect":[
+               "5",
+               "4",
+               "7"
+            ]
+         }
+      },
+      {
+         "title":"Svítidlo, kterého vyzářený světelný tok z 85% směřuje do dolního poloprostoru je svítidlo:",
+         "answers":{
+            "correct":[
+               "Přímé"
+            ],
+            "incorrect":[
+               "Smíšené",
+               "Převážně přímé",
+               "Nepřímé"
+            ]
+         }
+      },
+      {
+         "title":"Systémová elektroinstalace je:",
+         "answers":{
+            "correct":[
+               "Založena na principu vzájemné komunikace jednotlivých prvků (aktorů a senzorů) pomocí datové sběrnice, kterou jsou tyto propojeny."
+            ],
+            "incorrect":[
+               "Řízení ovládání osvětlení pomocí impulsních relé.",
+               "Nezávislé propojení samostatných obvodů silovým vedením."
+            ]
+         }
+      },
+      {
+         "title":"Systém Ego-n lze programovat",
+         "answers":{
+            "correct":[
+               "Přes počítač i ručně"
+            ],
+            "incorrect":[
+               "Pouze přes počítač",
+               "Ručně"
+            ]
+         }
+      },
+      {
+         "title":"Systém EIProCAD Je graficko-programový nástroj pro grafický editor.",
+         "answers":{
+            "correct":[
+               "BricsCAD, AutoCAD"
+            ],
+            "incorrect":[
+               "BricsCAD, AutoCAD, ProfiCAD",
+               "BricsCAD, AutoCAD, ArchiCAD, ProfiCAD",
+               "BricsCAD, AutoCAD, ArchiCAD"
+            ]
+         }
+      },
+      {
+         "title":"Systém INELS lze programovat:",
+         "answers":{
+            "correct":[
+               "Přes počítač i ručně."
+            ],
+            "incorrect":[
+               "Ručně.",
+               "Pouze přes počítač."
+            ]
+         }
+      },
+      {
+         "title":"Tablo obsluhy EZS se umisťuje",
+         "answers":{
+            "correct":[
+               "Do vstupní haly"
+            ],
+            "incorrect":[
+               "Do místnosti ve které spíme",
+               "Vždy před hlavní dveře z venku"
+            ]
+         }
+      },
+      {
+         "title":"Topologie sběrnicových systémů se člení na:",
+         "answers":{
+            "correct":[
+               "Oddíly a linie"
+            ],
+            "incorrect":[
+               "Senzory, aktory a sběrnice",
+               "Snímače, spínače a datové rozvody"
+            ]
+         }
+      },
+      {
+         "title":"Technická zpráva by měla obsahovat:",
+         "answers":{
+            "correct":[
+               "Specifikace projektu, základní technické údaje, vnější vlivy, ochrana před úrazem elektrickým proudem, ochrana před atmosférickým a pulsním přepětím, napojení na zdroj elektrické energie, měření odběru, vnitřní silnoproudé rozvody, hromosvody, vnitřní slaboproudé rozvody, obsluha a bezpečnost práce, závěr."
+            ],
+            "incorrect":[
+               "Základní technické údaje, vnější Vlivy, ochrana před úrazem elektrickým proudem, ochrana před atmosférickým a pulsním přepětím, napojení na zdroj elektrické energie, měření odběru, vnitřní silnoproudé rozvody, závěr.",
+               "Co uzná projektant za důležité"
+            ]
+         }
+      },
+      {
+         "title":"Tlačítka a snímače fyzikálních veličin se v terminologií inteligentní elektroinstalace nazývají jedním slovem",
+         "answers":{
+            "correct":[
+               "Senzory"
+            ],
+            "incorrect":[
+               "Aktory",
+               "Snímače",
+               "Tlačítka"
+            ]
+         }
+      },
+      {
+         "title":"U systémů EIB/KNX je použit přístup na sběrnici typu",
+         "answers":{
+            "correct":[
+               "CSMA/CA"
+            ],
+            "incorrect":[
+               "HDLC",
+               "poolling",
+               "CSMA/CD"
+            ]
+         }
+      },
+      {
+         "title":"Ukládat vodiče v instalacích obytných budov je možné",
+         "answers":{
+            "correct":[
+               "Pouze do instalačních zón"
+            ],
+            "incorrect":[
+               "Nejkratší možnou cestou",
+               "Kamkoliv zná montér za vhodné"
+            ]
+         }
+      },
+      {
+         "title":"Umožňuje jistící prvek komunikaci se sběrnicí u inteligentní elektroinstalace?",
+         "answers":{
+            "correct":[
+               "Ne, ani u jednoho systému"
+            ],
+            "incorrect":[
+               "Ano, u všech inteligentních systémů",
+               "Ano, pouze KNX"
+            ]
+         }
+      },
+      {
+         "title":"Ústředna EPS musí signalizovat svůj základní stav",
+         "answers":{
+            "correct":[
+               "Provoz, Porucha, Požár"
+            ],
+            "incorrect":[
+               "Pouze požár",
+               "Porucha, požár"
+            ]
+         }
+      },
+      {
+         "title":"V topologii systému KNX může jednu linii tvořit maximálně",
+         "answers":{
+            "correct":[
+               "64 účastníků"
+            ],
+            "incorrect":[
+               "128 účastníků",
+               "256 účastníků",
+               "32 účastníků"
+            ]
+         }
+      },
+      {
+         "title":"Ve které síti nesmí být použitý proudový chránič:",
+         "answers":{
+            "correct":[
+               "TN-C"
+            ],
+            "incorrect":[
+               "TT",
+               "IT",
+               "TN-S"
+            ]
+         }
+      },
+      {
+         "title":"Ve vstupním prostoru do rodinného domu, kde je správně instalovaný systém EZS bude",
+         "answers":{
+            "correct":[
+               "Tablo obsluhy, pohybové čidlo, magnetický kontakt na dveře."
+            ],
+            "incorrect":[
+               "Tablo obsluhy, magnetický kontakt na dveře, optický požární senzor.",
+               "Tablo obsluhy, ústředna EZS, pohybové čidlo, magnetický kontakt na dveře."
+            ]
+         }
+      },
+      {
+         "title":"Veličina, která charakterizuje tzv. účinnost světelných zdrojů se nazývá:",
+         "answers":{
+            "correct":[
+               "Měrný výkon"
+            ],
+            "incorrect":[
+               "Chromatičnost",
+               "Účinnost světelných zdrojů",
+               "Světelná účinnost"
+            ]
+         }
+      },
+      {
+         "title":"Vnější vlivy jsou označeny …",
+         "answers":{
+            "correct":[
+               "Dvěma písmeny a číslicemi"
+            ],
+            "incorrect":[
+               "Písmenem a dvěmi číslicemi",
+               "Číslicí a písmenem"
+            ]
+         }
+      },
+      {
+         "title":"Vnější vlivy se určují:",
+         "answers":{
+            "correct":[
+               "Určují se ve všech prostorech, ve kterých je umístěno nebo používáno elektrické zařízení nebo v nichž z jakéhokoliv hledisky musí být řešena ochrana před nebezpečnými účinky statické elektřiny nebo před statickými výboji."
+            ],
+            "incorrect":[
+               "Určují se ve všech prostorech, ve kterých je umístěno nebo používáno elektrické zařízení.",
+               "Určují se ve všech prostorech."
+            ]
+         }
+      },
+      {
+         "title":"Vyhotovení dokumentace probíhá následně:",
+         "answers":{
+            "correct":[
+               "Uzemní řízení, stavební povolení, zadávací dokumentace, dokumentace skutečného stavu, realizační dokumentace."
+            ],
+            "incorrect":[
+               "Na rozložení dokumentací se projektant domluví s investorem.",
+               "Stavební povolení a realizační dokumentace."
+            ]
+         }
+      },
+      {
+         "title":"Vypínač sloužící pro ovládání dvou obvodů z jednoho místa?",
+         "answers":{
+            "correct":[
+               "Sériový přepínač"
+            ],
+            "incorrect":[
+               "Střídavý přepínač",
+               "Jednopólový vypínač"
+            ]
+         }
+      },
+      {
+         "title":"Vypočtěte rezistanci R vodiče o průřezu S = 4 mm<sup>2</sup>, o délce I = 40,7 m a rezistivitě 0,0178 ohm.mm<sup>2</sup> m<sup>-1</sup>",
+         "answers":{
+            "correct":[
+               "0.181"
+            ]
+         },
+         "comment":"\\( R = \\frac {\\rho \\cdot l} {S} \\)"
+      },
+      {
+         "title":"Vypočtěte rezistanci R vodiče o průřezu S = 4 mm<sup>2</sup>, o délce I = 25.2 m a rezistivitě 0,0178 ohm.mm<sup>2</sup> m<sup>-1</sup>",
+         "answers":{
+            "correct":[
+               "0,112"
+            ]
+         },
+         "comment":"\\( R = \\frac {\\rho \\cdot l} {S} \\)"
+      },
+      {
+         "title":"Vypočtěte rezistanci R vodiče o průřezu S = 4 mm<sup>2</sup>, o délce I = 16.0 m a rezistivitě 0,0178 ohm.mm<sup>2</sup> m<sup>-1</sup>",
+         "answers":{
+            "correct":[
+               "0,0712"
+            ]
+         },
+         "comment":"\\( R = \\frac {\\rho \\cdot l} {S} \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí na jednofázovém vedení, které má impedanci 0,2 ohmů a napájí spotřebič o výkonu 0.6 kW. Napětí soustavy 230/400V. Výsledek uveďte na dvě desetinná místa s desetinnou tečkou.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
+         "answers":{
+            "correct":[
+               "0.51 V"
+            ]
+         },
+         "comment":"\\( R = \\frac { U^2 } { P } \\), \\( I = \\frac { U } { R } \\) a \\( U =  Z \\cdot I \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí na jednofázovém vedení, které má impedanci 0,2 ohmů a napájí spotřebič o výkonu 1.7 kW. Napětí soustavy 230/400V.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
+         "answers":{
+            "correct":[
+               "1.48 V"
+            ]
+         },
+         "comment":"\\( R = \\frac { U^2 } { P } \\), \\( I = \\frac { U } { R } \\) a \\( U =  Z \\cdot I \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí ve V v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P= 1.1kW a cosfi = 0.8.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
+         "answers":{
+            "correct":[
+               "0.55 V"
+            ]
+         },
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot I \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot Z \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí ve V v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P = 2.0 kW a cosfi = 0.8.",
+         "answers":{
+            "correct":[
+               "1.00 V"
+            ]
+         },
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot I \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot Z \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Výkaz výměr je:",
+         "answers":{
+            "correct":[
+               "Seznam použitých komponent v projektu a jejich množství."
+            ],
+            "incorrect":[
+               "Seznam použitých komponent a jejich cena.",
+               "Výsledný rozpočet projektu.",
+               "Dokument obsahující údaje o rozměrech a vyměřené zastavěné ploše objektu."
+            ]
+         }
+      },
+      {
+         "title":"Zapojení stanic do kruhu, co se stane, když připojím další stanici?",
+         "answers":{
+            "correct":[
+               "Nic. Připojení další stanice je bez dalších nákladů na počítačové rozvody"
+            ]
+         }
+      },
+      {
+         "title":"Základní dělení počítačových sítí je:",
+         "answers":{
+            "correct":[
+               "Sběrnicová, hvězdicová, kruhová"
+            ],
+            "incorrect":[
+               "Sběrnicová a hvězdicová",
+               "Sběrnicová, hvězdicová, kruhová a čtvercová"
+            ]
+         }
+      },
+      {
+         "title":"Zvětším-li odběr (proud zátěže) na konci vedení dvakrát, tak ztráty mi vzrostou:",
+         "answers":{
+            "correct":[
+               "4x"
+            ],
+            "incorrect":[
+               "0,5x",
+               "1x",
+               "2x"
+            ]
+         }
+      },
+      {
+         "title":"Jaké řazení spínače je na obrázku:<br><img src=\"/images/xpc/psd/zkouska/razeni.png\">",
+         "answers":{
+            "correct":[
+               "Řazení č. 6+1"
+            ],
+            "incorrect":[
+               "Řazení č. 7",
+               "Řazení č. 6",
+               "Řazení č. 6+6",
+               "Řazení č. 5+1",
+               "Řazení č. 4",
+               "Řazení č. 2/A"
+            ]
+         }
+      },
+      {
+         "title":"Atmosféra přepětí lze charakterizovat jako",
+         "answers":{
+            "correct":[
+               "Přechodné a podélné přepětí"
+            ],
+            "incorrect":[
+               "Dočasné a podélné přepětí",
+               "Přechodné a příčné přepětí",
+               "Dočasné a příčné přepětí"
+            ]
+         }
+      },
+      {
+         "title":"Vlnová délka na kterou má lidské oko největší citlivost je:",
+         "answers":{
+            "correct":[
+               "555 nm"
+            ],
+            "incorrect":[
+               "450 nm",
+               "155 nm"
+            ]
+         }
+      },
+      {
+         "title":"Která definice vystihuje slovo selektivita?",
+         "answers":{
+            "correct":[
+               "Selektivnost mezi přístroji téhož obvodu má iniciovat ten ochranný prvek, který je nejblíže k poruše a zajistit tedy požadovanou posloupnost působení tak aby došlo k minimalizaci ztrát."
+            ],
+            "incorrect":[
+               "Selektivnost mezi přístroji téhož obvodu má iniciovat ten ochranný prvek, který je nejdále od poruchy a zajistit tedy požadovanou posloupnost působení tak, aby došlo k minimalizaci ztrát.",
+               "Selektivnost mezi přístroji téhož obvodu má iniciovat všechny ochranné prvky.",
+               "Selektivnost mezi prvky téhož obvodu nemá iniciovat žádný ochranný prvek."
+            ]
+         }
+      },
+      {
+         "title":"Jaké je označení spínače na obrázku?<br><img src=\"/images/xpc/psd/zkouska/spinac.png\">",
+         "answers":{
+            "correct":[
+               "Trojpólový vypínač"
+            ],
+            "incorrect":[
+               "Střídavý přepínač dvojitý",
+               "Jednopólový vypínač",
+               "Střídavý přepínač",
+               "Skupinový přepínač",
+               "Sériový přepínač střídavý",
+               "Křížový přepínač",
+               "Sériový přepínač",
+               "Dvoupólový vypínač"
+            ]
+         }
+      },
+      {
+         "title":"Vypočtěte výkon jednofázového spotřebiče. Proud, který teče spotřebičem má velikost 6,9 a účiník je 0,58. Napětí soustavy 230/400 V.\nVýsledek uveďte na dvě desetinná místa s desetinnou čárkou v [W].",
+         "answers":{
+            "correct":[
+               "920,46"
+            ]
+         },
+         "comment":"\\( P = U \\cdot I \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Jaká hodnota jmenovitého proudu jističe se používá pro připojení jednofázového zásuvkového obvodu?",
+         "answers":{
+            "correct":[
+               "16 A"
+            ],
+            "incorrect":[
+               "20 A",
+               "10 A"
+            ]
+         }
+      },
+      {
+         "title":"Jaké je řazení spínače na obrázku?<br><img src=\"/images/xpc/psd/zkouska/razeni-b.png\">",
+         "answers":{
+            "correct":[
+               "Řazení č. 4"
+            ],
+            "incorrect":[
+               "Řazení č. 6",
+               "Řazeni č. 2",
+               "Řazení č. 1",
+               "Řazení č. 3",
+               "Řazení č. 5",
+               "Řazení č. 7"
+            ]
+         }
+      },
+      {
+         "title":"Klíč od KTPO má:",
+         "answers":{
+            "correct":[
+               "Hasičská záchranná služba"
+            ],
+            "incorrect":[
+               "Policie české republiky",
+               "Ostraha objektu"
+            ]
+         }
+      },
+      {
+         "title":"Co je to proudový chránič s nadproudovou ochranou?",
+         "answers":{
+            "correct":[
+               "Kombinovaný přístroj proudového chrániče a jističe."
+            ],
+            "incorrect":[
+               "Kombinovaný přistroj proudového chrániče a obloukové ochrany.",
+               "Kombinovaný přístroj proudového chrániče a přepěťové ochrany 3. stupně."
+            ]
+         }
+      },
+      {
+         "title":"Co znamená označení strukturované kabeláže U/FTP?",
+         "answers":{
+            "correct":[
+               "Použití folie na stínění párů"
+            ],
+            "incorrect":[
+               "Použití folie na stínění pláště",
+               "Stínění pláště opletením"
+            ]
+         }
+      },
+      {
+         "title":"Vodiče PE a PEN",
+         "answers":{
+            "correct":[
+               "Se nesměji jistit"
+            ],
+            "incorrect":[
+               "Se jistí pouze ve starých rozvodech, kde není rozlišen od fázového vodiče.",
+               "Se mohou jistit pouze v síti TT.",
+               "Se mohou jistit pouze v případech stanovených normou.",
+               "Se mohou jistit pouze tehdy, slouží-li zároveň jako střední."
+            ]
+         }
+      },
+      {
+         "title":"Jaká je předepsaná maximální doba vypnuti z hlediska správné funkce ochrany před úrazem elektrickým proudem pro zařízení držená v ruce?",
+         "answers":{
+            "correct":[
+               "0,4 s"
+            ],
+            "incorrect":[
+               "0,2 s",
+               "5 s",
+               "0,8 s"
+            ]
+         }
+      },
+      {
+         "title":"Mohou se pevné spotřebiče umisťovat do umývacího prostoru v koupelně?",
+         "answers":{
+            "correct":[
+               "Ano, pokud je výrobce určen do daného umývacího prostoru a má certifikát daný výrobcem."
+            ],
+            "incorrect":[
+               "Ne.",
+               "Ano, pokud se jedná o bojler nebo ohřívač vody a nemá žádný certifikát."
+            ]
+         }
+      },
+      {
+         "title":"Kolik zásuvek je možné instalovat na jeden jednofázový obvod?",
+         "answers":{
+            "correct":[
+               "10 ks"
+            ],
+            "incorrect":[
+               "8 ks",
+               "Počet je omezen pouze jisticím prvkem"
+            ]
+         }
+      },
+      {
+         "title":"Opravy a údržba stávajících zařízení již dokončené stavby podléhají sazbě DPH:",
+         "answers":{
+            "correct":[
+               "15 %"
+            ],
+            "incorrect":[
+               "21 %",
+               "10 %",
+               "20 %"
+            ]
+         }
+      },
+      {
+         "title":"Jaké je jmenovité napětí rozvodné sítě NN v ČR?",
+         "answers":{
+            "correct":[
+               "230/400 V"
+            ],
+            "incorrect":[
+               "120/210 V",
+               "220/380 V"
+            ]
+         }
+      },
+      {
+         "title":"Vodič PEN je součástí sítě:",
+         "answers":{
+            "correct":[
+               "TN-C"
+            ],
+            "incorrect":[
+               "TN-S",
+               "TT"
+            ]
+         }
+      },
+      {
+         "title":"U obvodů SELV:",
+         "answers":{
+            "correct":[
+               "Živé části nesmějí být spojené se zemí nebo jinými živými částmi"
+            ],
+            "incorrect":[
+               "Živé části mohou být spojené se zemí nebo jinými živými částmi",
+               "Živé části musí být uzemněné"
+            ]
+         }
+      },
+      {
+         "title":"Projektovou dokumentaci pro stavební dokumentaci může vypracovávat:",
+         "answers":{
+            "correct":[
+               "Autorizovaný inženýr"
+            ],
+            "incorrect":[
+               "Autorizovaný technik",
+               "Samostatný projektant (vyhl. 50, S10)",
+               "Samozvaný projektant"
+            ]
+         }
+      },
+      {
+         "title":"Máme spotřebič o výkonu 3,2 kW, jiětěný 16A. Použijeme vodič s:",
+         "answers":{
+            "correct":[
+               "Takový, aby podle norem odpovídal úbytek napětí a <?>"
+            ],
+            "incorrect":[
+               "Přůřezem 2,5 mm<sup>2</sup>",
+               "Přůřezem 4 mm<sup>2</sup>"
+            ]
+         }
+      },
+      {
+         "title":"Neizolované fázové vodiče natřeme (označíme) oranžovou barvou (myšlena i pásovina v rozvaděči):",
+         "answers":{
+            "correct":[
+               "Ano."
+            ],
+            "incorrect":[
+               "Ne.",
+               "Pouze u datových rozvodů."
+            ]
+         }
+      },
+      {
+         "title":"Jakým napětím napájí sběrnice Foxtrot jednotlivé účastníky?",
+         "answers":{
+            "correct":[
+               "24 V"
+            ],
+            "incorrect":[
+               "12 V",
+               "18 V",
+               "20 až 24 V",
+               "14 V",
+               "21 až 29 V"
+            ]
+         }
+      },
+      {
+         "title":"Jakou dobu musí vydržet přepěťová ochrana typu SPD typ 1 (T1) při testu <?>",
+         "answers":{
+            "correct":[
+               "10 – 300 μs"
+            ],
+            "incorrect":[
+               "10 –  300ms",
+               "8 – 30 ms",
+               "8 – 30 μs"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je referenční teplota pro výpočet zatěžovacího proudu pro kabely uložené v zemi?",
+         "answers":{
+            "correct":[
+               "20 °C"
+            ],
+            "incorrect":[
+               "30 °C",
+               "18 °C",
+               "26 °C"
+            ]
+         }
+      },
+      {
+         "title":"Kolik minimálně kolikati žilový kabel je třeba na zapojení 2 světelných zdrojů v jednom svítidle, když pro ovládání použijeme sériový přepínač?",
+         "answers":{
+            "correct":[
+               "3"
+            ],
+            "incorrect":[
+               "4",
+               "5"
+            ]
+         }
+      },
+      {
+         "title":"Čím lze ovládat systémová instalace Foxtrot?",
+         "answers":{
+            "correct":[
+               "Talčítky, počítačem, wifi, atd …"
+            ],
+            "incorrect":[
+               "Počítačem nebo tlačítky",
+               "Pouze tlačítky"
+            ]
+         }
+      },
+      {
+         "title":"Jaké je napětí na sběrnici CIB?",
+         "answers":{
+            "correct":[
+               "24 V"
+            ],
+            "incorrect":[
+               "30 V",
+               "21 V",
+               "12 V",
+               "36 V"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      },
+      {
+         "title":"S jakými sběrnicemi komunikuje základní modul TECO CP-2000?",
+         "answers":{
+            "correct":[
+               "CIB + TCL2"
+            ],
+            "incorrect":[
+               "CIB",
+               "CIB + DECO",
+               "KNX"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      },
+      {
+         "title":"Jaká je minimální vzdálenost zásuvky nad podoložkou?",
+         "answers":{
+            "correct":[
+               "20 cm"
+            ],
+            "incorrect":[
+               "15 cm",
+               "25 cm",
+               "30 cm"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      },
+      {
+         "title":"Projektování je typ živnosti?",
+         "answers":{
+            "correct":[
+               "Vázaná"
+            ],
+            "incorrect":[
+               "Koncesovaná",
+               "Volná",
+               "Řemeslná"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      }
+   ]
+}

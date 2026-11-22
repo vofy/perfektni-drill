@@ -1,0 +1,971 @@
+{
+   "title":"Zápočtový test",
+   "description":"Přepis z fektušky",
+   "tasks":[
+      {
+         "title":"Bude přenos 8 kB dat pomocí komutace buněk (buňka velikosti 140 B) časově náročnější než přenos pomocí komutace paketů?",
+         "answers":{
+            "correct":[
+               "Ano"
+            ],
+            "incorrect":[
+               "Metoda komutace nemá vliv na čas přenosu dat",
+               "Ne",
+               "Tento objem dat není možné přenést pomocí komutace buňek"
+            ]
+         }
+      },
+      {
+         "title":"Data ve zprávě posílaná od zdrojové aplikace k cílové aplikaci musí být opatřena postupně těmito údaji, (uplatní se protokoly TCP/IP od aplikační vrstvy až po vrstvu fyzického rozhraní):",
+         "answers":{
+            "correct":[
+               "data - port - IP adresa - MAC adresa"
+            ],
+            "incorrect":[
+               "data - MAC adresa - port - IP adresa",
+               "data - IP adresa - MAC adresa - port",
+               "data - port - MAC adresa -IP"
+            ]
+         },
+         "comment":"Na discordu byla správná odpověď \"data - MAC adresa - port - IP adresa\". Vzledem k tomu, že postupujeme od aplikační vrstvy po vrstvu fyzického rozhraní, tak nejdříve máme samotná data aplikace, poté k nim přidáme v transportní vrstvě porty, poté v síťové přidáme IP adresu a na vrstvě síťového rozhraní přidáme MAC adresu."
+      },
+      {
+         "title":"Při použití filtru \"ip.addr==192.168.0.1\" v programu Wireshark se",
+         "answers":{
+            "correct":[
+               "nezobrazí pouze pakety, u nichž je zdrojová IP adresa 192.168.0.1",
+               "nezobrazí pouze pakety, u nichž je cílová IP adresa 192.168.0.1",
+               "zobrazí pouze pakety, u nichž je cílová nebo zdrojová IP adresa 1952.168.0.1"
+            ],
+            "incorrect":[
+               "zobrazí pouze pakety, u nichž je zdrojová IP adresa 192.168.0.1",
+               "nezobrazí pouze pakety, u nichž je cílová nebo zdrojová IP adresa 192.168.0.1",
+               "zobrazí se pouze pakety, u nichž je cílová IP adresa 192.168.0.1"
+            ]
+         },
+         "comment":"Jednosměrný provoz filtrujeme pomocí filtrů ip.src a ip.dst."
+      },
+      {
+         "title":"Jaké příznaky používá pro navazování a ukončování spojení transportní protokol UDP (User Datagram Protocol)",
+         "answers":{
+            "correct":[
+               "Protokol UDP nenavazuje a neukončuje spojení (není spojově orientovaný)"
+            ],
+            "incorrect":[
+               "ARQ a FIN",
+               "SYN a FIN",
+               "PSH a ACK"
+            ]
+         }
+      },
+      {
+         "title":"O směrovacích tabulkách lze říct:",
+         "answers":{
+            "correct":[
+               "Statické vytvoření směrovací tabulky provádí administrátor ručně",
+               "Podle záznamu ve směrovací tabulce se směrovač rozhodne, kterým rozhraním paket odešle",
+               "Vytváření směrovací tabulky může být statické nebo dynamické"
+            ],
+            "incorrect":[
+               "Dynamické vytváření směrovací tabulky není závislé na použitém směrovacím protokolu"
+            ]
+         }
+      },
+      {
+         "title":"Úloha síťové vrstvy s IP protokolem z pohledu zpracovatele paketu (směrovače) je: (2 správné)",
+         "answers":{
+            "correct":[
+               "Zjištění IP adresy cíle paketu ze záhlaví paketu",
+               "Vytvoření nového záhlaví paketu"
+            ],
+            "incorrect":[
+               "Defragmentace jednotlivých částí přijatého paketu",
+               "Vyhledání logické a fyzické adresy dalšího skoku směrem k příjemci paketu",
+               "Nalezení DNS jména příjemce paketu"
+            ]
+         },
+         "comment":"Není ověřeno, pokusím se najít ve skriptech"
+      },
+      {
+         "title":"Deterministické přístupové metody spojové vrstvy jsou",
+         "answers":{
+            "correct":[
+               "Vhodné tam, kde je velké riziko kolizí vysílání na sdíleném přenosovém médiu",
+               "Založeny na vysokém stupni kontroly toho, co se na přenosovém mědiu odehrává z hlediska vysílání rámců"
+            ],
+            "incorrect":[
+               "Vhodné především pro sítě s přímým a vyhrazeným přenosovým kanálem pro každý komunikující uzel",
+               "Založeny na principu, že pakety není nutné doručit",
+               "Založeny na nízkém stupni kontroly toho, co se na přenosovém médiu odehrává z hlediska vysílání rámců"
+            ]
+         }
+      },
+      {
+         "title":"Rámce spojové vrstvy založené na časové synchronizaci",
+         "answers":{
+            "correct":[
+               "Mají typicky fixní délku"
+            ],
+            "incorrect":[
+               "Mohou být přenášeny pouze přes opitcké přenosové trasy",
+               "Nevyžadují žádnou synchronizaci v systému komunikace",
+               "Nelze použít pro přenos paketů síťové vrstvy",
+               "Jsou vhodné pro přenos na velmi malé vzdálenosti"
+            ]
+         }
+      },
+      {
+         "title":"Adresa 172.0.0.0 obecně spadá do:",
+         "answers":{
+            "correct":[
+               "Třídy B"
+            ],
+            "incorrect":[
+               "Třídy A",
+               "Třídy C",
+               "Třídy D",
+               "Třídy E"
+            ]
+         }
+      },
+      {
+         "title":"Šířka pásma v počítačových sítích (2 správné)",
+         "answers":{
+            "correct":[
+               "Souvisí typicky s technickými parametry dané technologie",
+               "Udává kolik bitů za sekundu je daná technologie schopna přenést v ideálních podmínkách za jednotku času"
+            ],
+            "incorrect":[
+               "Má návasznost na transportní protokoly TCP a UDP",
+               "Udává způsob komutace přenášených jednotek v dané síti",
+               "Lze ji přímo vypočítat z hodnoty RTT (Round Trip Time)"
+            ]
+         }
+      },
+      {
+         "title":"Mezi propojující (mezilehlé) síťové prvky počítačových sítí patří",
+         "answers":{
+            "correct":[
+               "Přepínač",
+               "Směrovač",
+               "Opakovač"
+            ],
+            "incorrect":[
+               "WiFi",
+               "Ethernet"
+            ]
+         },
+         "comment":"S opakovačem si nejsem jistý."
+      },
+      {
+         "title":"Kolik kroků je potřeba pro ukončení spojení při použití transportního protokolu TCP (Transmission Control Protocol)?",
+         "answers":{
+            "correct":[
+               "4 kroky (tzv. four-way handshake)"
+            ],
+            "incorrect":[
+               "2 kroky (tzv. two-way handshake)",
+               "1,5 kroků (tzv. one-and-half-way handshake)",
+               "0 kroků (no handshake)",
+               "2,5 kroků (tzv. two-and-half-way handshake)"
+            ]
+         }
+      },
+      {
+         "title":"Protokol UDP (User Datagram Protocol) (3 správné)",
+         "answers":{
+            "correct":[
+               "Je vhodný pro přenos multimediálních dat",
+               "Je jednodušší a má menší záhlaví než protokol TCP (Transmission Control Protocol)",
+               "Nezajišťuje spolehlivý přenos dat"
+            ],
+            "incorrect":[
+               "Zajišťuje, že data budou na přijímací straně poskládána do správného pořadí, v jakém byla vyslána",
+               "Slouží pro dojednání kodeků a šifrování před prenosem hlasové aplikace"
+            ]
+         }
+      },
+      {
+         "title":"Pro zabezpečený přenos webové stránky bychom měli použít protokol: (2 správné)",
+         "answers":{
+            "correct":[
+               "QUIC (Quick UDP Internet Connections)",
+               "TLS (Transport Layer Securtiy) + TCP (Transmission Control Protocol)"
+            ],
+            "incorrect":[
+               "TCP (Transmission Control Protocol)",
+               "UDP (User Datagram Protocol)",
+               "FTP (File Transfer Protocol)"
+            ]
+         }
+      },
+      {
+         "title":"Které/které vrstva/vrstvy nepatří do síťového modelu ISO/OSI?",
+         "answers":{
+            "correct":[
+               "Relativní",
+               "Fyzikální",
+               "Aplikovaná"
+            ],
+            "incorrect":[
+               "Transportní",
+               "Síťová",
+               "Spojová",
+               "Prezentační"
+            ]
+         }
+      },
+      {
+         "title":"Které z následujících tvrzení je pravdivé?",
+         "answers":{
+            "correct":[
+               "Šířka pásma závisí na fyzikálních vlastnostech daného přenosového média"
+            ],
+            "incorrect":[
+               "Útlum představuje postupné zesilování amplitudy signálu na přenosovém médiu",
+               "Analogový signál je výtvorem člověka a je nespojitý v čase",
+               "Digitální signál je výtvorem člověka a je spojitý v čase",
+               "AMI kód (Alternate Mark Inversion) je unipolární kód"
+            ]
+         }
+      },
+      {
+         "title":"O technice Stop-and-Wait ARQ (Automatic Repeat Request) platí: (2 správné)",
+         "answers":{
+            "correct":[
+               "Rámce musí být číslovány",
+               "Systém je schopen vyřešit případnou ztrátu rámce při přenosu od vysílače k přijímači"
+            ],
+            "incorrect":[
+               "Příjemce nemusí každý rámec samostatně potvrdit",
+               "Vysílač může vyslad hned za sebou jakékoliv množství rámců (více než 2) bez potvrzení",
+               "Vysílač může odeslat hned za sebou vždy poouze dva rámce"
+            ]
+         },
+         "comment":"Rámce musí být číslovány, ale stačí pouze dvě sekvenční čísla: 0 a 1"
+      },
+      {
+         "title":"Součástí standardního IPv4 záhlaví není (2 správné)",
+         "answers":{
+            "correct":[
+               "Adresa portu odesílatele",
+               "Adresa portu příjemce"
+            ],
+            "incorrect":[
+               "Adresa IP příjemce",
+               "Adresa IP odesílatele",
+               "Hodnota TTL (Time To Live)"
+            ]
+         }
+      },
+      {
+         "title":"Prezentační vrstva ISO/OSI se stará o (3 správné)",
+         "answers":{
+            "correct":[
+               "Kompresi přenášených dat",
+               "Šifrování přenášených dat",
+               "Kódování (prezentaci) přenášených apliačních dat"
+            ],
+            "incorrect":[
+               "Navázání koncového spojení čtvrté vrstvy před přenosem dat",
+               "Překlad adres u přenášených dat"
+            ]
+         }
+      },
+      {
+         "title":"K čemu slouží technika klouzavého okna? (2 správné)",
+         "answers":{
+            "correct":[
+               "k efektivnějšímu využití přenosového kanálu",
+               "umožňuje vysílači odeslat omezený počet rámců hned za sebou"
+            ],
+            "incorrect":[
+               "k rezervaci komunikačního pásma",
+               "umožňuje detekovat rámce přijaté s bitovou chybou",
+               "slouží ke stanovení počtu bitových chyb v komunikačním kanálu"
+            ]
+         }
+      },
+      {
+         "title":"Jakým způsobem se dá zapisovat maska sítě v případě IPv4 (3 správné)",
+         "answers":{
+            "correct":[
+               "V binární podobě",
+               "Pomocí délky prefixu",
+               "V dekadické podobě"
+            ],
+            "incorrect":[
+               "V desetiné podobě",
+               "Maska sítě se u adres IPv4 nepoužívá"
+            ]
+         }
+      },
+      {
+         "title":"ICMP (Internet Control Message Protocol) slouží k oznamování chyb na",
+         "answers":{
+            "correct":[
+               "síťové vrstvě"
+            ],
+            "incorrect":[
+               "transportní vrstvě",
+               "aplikační vrstvě",
+               "fyzické vrstvě",
+               "spojové vrstvě"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte pravdivé tvrzení o kořenových serverech DNS (Domain Name System) (2 správné)",
+         "answers":{
+            "correct":[
+               "Odkazují dotazující se rekurzivní DNS servery na další doménové servery",
+               "Jsou nezbytnou součástí hiearchie DNS serverů"
+            ],
+            "incorrect":[
+               "Obsahují ve své databázi DNS záznamy všech domén v Internetu",
+               "Jsou umístěny v každé lokální počítačové síti",
+               "Jejich použití je volitelné"
+            ]
+         }
+      },
+      {
+         "title":"Překlad adres - NAT (Network Address Translation) v kombinaci s PAT (Port Address Translation) se používá (2 správné)",
+         "answers":{
+            "correct":[
+               "Ke změně adres síťové a transportní vrstvy v předávaných paketech",
+               "K překladu privátních IP adres na veřejné IP a opačně"
+            ],
+            "incorrect":[
+               "Pouze k překladu adres portů v paketech",
+               "Ke kontrole portů a IP adres v paketech",
+               "K podsíťování adresních rozsahů u tzv. major networks"
+            ]
+         },
+         "comment":"Major network je síť, která vznikla sloučením více podsítí. Sloučení více major networks vznikne supernet."
+      },
+      {
+         "title":"V jakém přenosovém prsotředí je ve většině případů nejmenší bitová chybovost BER (Bit Error Rate)?",
+         "answers":{
+            "correct":[
+               "V optickém vlákně"
+            ],
+            "incorrect":[
+               "Na přenosovém prostředí nezáleží",
+               "V bezdrátovém prostředí",
+               "U všech přenosových médií je chybovost vždy stejná",
+               "V metalickém vodiči"
+            ]
+         }
+      },
+      {
+         "title":"Pomocí protokolů VoIP (Voice over Internet Protocol) lze mezi dvěma účastníky realizovat hovor (4 správné)",
+         "answers":{
+            "correct":[
+               "v rámci lokální sítě",
+               "přes internetovou síť",
+               "v rámci jednoho zařízení, např. počítače",
+               "pomocí chytrého mobilního telefonu se SIP klientem"
+            ],
+            "incorrect":[
+               "ze zařízení bez IP adresy"
+            ]
+         }
+      },
+      {
+         "title":"Router (směrovač): (2 správné)",
+         "answers":{
+            "correct":[
+               "Směrování probíhá pouze na úrovni síťové vrstvy",
+               "Směruje pakety na základě IP adresy"
+            ],
+            "incorrect":[
+               "Směruje pakety na základě MAC adresy",
+               "Pracuje na úrovni aplikační vrstvy",
+               "Automaticky směřuje pakety do všech výstupních portů směrovače"
+            ]
+         }
+      },
+      {
+         "title":"Čím je charakteristický časový multiplex?",
+         "answers":{
+            "correct":[
+               "Rychlé střídání provozů v čase."
+            ],
+            "incorrect":[
+               "Odlišnou vlnovou délkou provozů.",
+               "Více plně časově souběžných paralelních provozů v jednom vedení.",
+               "Každý z provozů opoužívá jinou část kmitočtového pásma.",
+               "Různé provozy využívají různé frekvence."
+            ]
+         }
+      },
+      {
+         "title":"Které z následujících metod přenosu dat rezervuje prostředky a kapacity komunikace po celou dobu sestaveného spojení i když se neposílají žádná data?",
+         "answers":{
+            "correct":[
+               "Komutace okruhů"
+            ],
+            "incorrect":[
+               "Komutace buňek",
+               "Komutace zpráv",
+               "Komutace paketů",
+               "Komutace cest"
+            ]
+         }
+      },
+      {
+         "title":"Rámce spojové vrstvy založené na časové synchronizaci (2 správné)",
+         "answers":{
+            "correct":[
+               "Nelze použít pro přenos paketů síťové vrstvy",
+               "Mají typycky fixní délku"
+            ],
+            "incorrect":[
+               "Nevyžadují žádnou synchronizaci v systému komunikace",
+               "Mohou být přenášeny pouze přes optické přenosové trasy",
+               "Jsou vhodné pro přenos na velmi malé vzdálenosti"
+            ]
+         },
+         "comment":"Nejsem si jistý"
+      },
+      {
+         "title":"Vyberte pravdivé tvrzení o spojové vrstvě (3 správné)",
+         "answers":{
+            "correct":[
+               "Pracuje s rámci či buňkami",
+               "Může pracovat s různými přístupovými metodami ke sdílenému médiu",
+               "Koriguje často chyby, které případně vzniknou na fyzické vrstvě"
+            ],
+            "incorrect":[
+               "Může se starat o řízení spoje v rámci dané síťě (technologie)",
+               "Používá maximálně 65536 portů"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte nepravdivé tvrzení (3 správné)",
+         "answers":{
+            "correct":[
+               "Opakovač pracuje na první vrstvě ISO/OSI",
+               "Přepínač pracuje na druhé vrstvě ISO/OSI",
+               "Směrovač pracuje na třetí vrstvě ISO/OSI"
+            ],
+            "incorrect":[
+               "Opakovač a rozbočovač pracují na různých vrstvách modelu ISO/OSI",
+               "Směrovač a router jsou funkčně shodná zařízení pracujících na různých vrstvách"
+            ]
+         }
+      },
+      {
+         "title":"Mezi zprávy DHCP (Dynamic Host Configuration Protocol) protokolu nepatří",
+         "answers":{
+            "correct":[
+               "DHCP Selective Reject"
+            ],
+            "incorrect":[
+               "DHCP Discover",
+               "DHCP Offer",
+               "DHCP Request",
+               "DHCP ACK"
+            ]
+         }
+      },
+      {
+         "title":"Jaké adresy jsou používány pro zpracování (obdoba technik přepínání, směrování) jednotek na úrovni fyzické vrstvy ISO/OSI. (2 správné)",
+         "answers":{
+            "correct":[
+               "Žádná adresace na této vrstvě není"
+            ],
+            "incorrect":[
+               "Ani jedna z těchto možností není správná",
+               "Čísla portů",
+               "IP adresy",
+               "MAC adresy"
+            ]
+         }
+      },
+      {
+         "title":"Dynamické distribuované směrování (4 správné)",
+         "answers":{
+            "correct":[
+               "Je považováno za dynamickou směrovací strategii",
+               "Umožňuje změnu využívaných tras v síti v závislosti na aktuální situaci, např. výpadcích linek",
+               "Vyžaduje směrovací protokoly interního nebo externího typu",
+               "Je v praxi velmi časté"
+            ],
+            "incorrect":[
+               "Není možné pužít v případě IPv6 sítí"
+            ]
+         },
+         "comment":"Nejsem si jistý"
+      },
+      {
+         "title":"O fragmentaci IPv4 paketů na síťové vrstvě platí (2 správné)",
+         "answers":{
+            "correct":[
+               "Může k ní dojít při přenosu paketu přes směrovače v případě, že hodnota MTU (Maximum Transmission Unit) následující linky je menší, než velikost přenáčeného paketu",
+               "Může být zakázána odesílatelem paketu"
+            ],
+            "incorrect":[
+               "Fragmentaci nelze použít, je-li využit transportní protokol UDP",
+               "Fragmentace snižuje zatížení procesoru směrovače",
+               "Z jednotlivých fragmentů lze poskládat původní paket pouze tehdy, dorazí-li jednotlivé fragmenty v původním pořadí, v jakém byly vyslány při fragmentaci"
+            ]
+         }
+      },
+      {
+         "title":"Protokolová sada TCP/IP nebo její část je typicky implementována alespoň částečně v (3 správné)",
+         "answers":{
+            "correct":[
+               "Operačním systému koncového zařízení",
+               "V mezilehlých síťových prvcích",
+               "V koncových aplikacích"
+            ],
+            "incorrect":[
+               "Jako součást každého standardu globálních sítí, např. SDH",
+               "Jako součást každého standardu lokálních sítí, např. Ethernetu"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte nepravdivé tvrzení o výchozí bráně sítě (2 správné)",
+         "answers":{
+            "correct":[
+               "Jedná se o zařízení pracující na druhé vrstvě ISO/OSI",
+               "Toto zařízení nemusí mít IP adresu"
+            ],
+            "incorrect":[
+               "Toto zařízení slouží pro propojení lokální sítě s ostatními sítěmi",
+               "Toto zařízení je funkcně směrovač třetí vrstvy ISO/OSI",
+               "Toto zařízení funguje jako zprostředkovatel IP komunikace ze sítě ven a i dovnitř"
+            ]
+         }
+      },
+      {
+         "title":"Stejnosměrnou složku z principu fungování odstraňuje linkový kód (2 správné)",
+         "answers":{
+            "correct":[
+               "Rozdílový Manchester",
+               "Non-Return to Zero Inverted"
+            ],
+            "incorrect":[
+               "Bipolární Return to Zero (RZ)",
+               "Unipolární Return to Zero (RZ)",
+               "Stop and Zero (SZ)"
+            ]
+         }
+      },
+      {
+         "title":"O rámci na úrovni spojové vrstvy založeném na časové synchronizaci zpravidla platí: (2 správné)",
+         "answers":{
+            "correct":[
+               "má fixní délku",
+               "přenáší i datovou část"
+            ],
+            "incorrect":[
+               "je možné jej na přenosové médium vyslat v libovolný časový okamžik",
+               "má proměnnou délku",
+               "nenese žádná data"
+            ]
+         }
+      },
+      {
+         "title":"Fyzická vrstva modelu ISO/OSI nikdy nedefinuje:",
+         "answers":{
+            "correct":[
+               "formát rámců"
+            ],
+            "incorrect":[
+               "konektory",
+               "elektrické vlastnosti kabelů",
+               "přenosovou rychlost",
+               "Napěťové úrovně"
+            ]
+         }
+      },
+      {
+         "title":"Cílem směrovacích protokolů v sítích s TCP/IP by mělo být (2 správné)",
+         "answers":{
+            "correct":[
+               "Minimalizace velikosti vytvořených směrovacích tabulek",
+               "Získání informací o dostupných IP sítích od ostatních směrovačů"
+            ],
+            "incorrect":[
+               "Maximalizace velikosti přenáčených kontrolních a řídících zpráv mezi směrovači",
+               "Vytvoření směrovacích smyček",
+               "Co nejvyšší náhodnost směrování"
+            ]
+         }
+      },
+      {
+         "title":"Protokol ARP (Address Resolution Protocol) (2 správné)",
+         "answers":{
+            "correct":[
+               "Slouží v IPv4 sítích k dynamickémuu převodu známé IPv4 adresy adresáta na fyzickou adresu",
+               "Umožňuje hledat fyzickou adresu výchozí brány, jestliže známe její IPv4 adresu"
+            ],
+            "incorrect":[
+               "Umožňuje pouze práci se statickou tabulkou překladů v rámci operačního systému",
+               "Je považován za  směrovací protokol",
+               "Odesílá veškeré pakety unicastově"
+            ]
+         }
+      },
+      {
+         "title":"Systém přenosu elektronické pošty je založen na",
+         "answers":{
+            "correct":[
+               "Na nepřímém doručování zpráv mezi klienty přes servery elektronické pošty"
+            ],
+            "incorrect":[
+               "Nutnosti znát IP adresu konkrétního adresáta, ktrému chceme email odeslat",
+               "Protokolech pro komunikaci mezi klienty a servery, jako je např. SMTP (Simple Mail Transfer Protocol)",
+               "Pravidelném přepínání mezi TCP a UDP transportním protokolem",
+               "Na periodickém obměňování DNS názvů jednotlivým emeilovým serverům"
+            ]
+         },
+         "comment":"SMTP slouží ke komunikaci mezi dvěma servery"
+      },
+      {
+         "title":"Rámec spojové vrstvy se typicky skládá z (3 správné)",
+         "answers":{
+            "correct":[
+               "Záhlaví",
+               "Datová část",
+               "Zápatí"
+            ],
+            "incorrect":[
+               "Identifikace použitého linkového kódu",
+               "Adresa portu"
+            ]
+         }
+      },
+      {
+         "title":"Jaká zpráva se posílá v případě detekování chyby v přenosu dat pomocí mechanizmu Go-Back-N? (2 správné)",
+         "answers":{
+            "correct":[
+               "REJ (Reject)",
+               "NACK (Negative Acknowledgement)"
+            ],
+            "incorrect":[
+               "ACK (Acknowledgement)",
+               "RTT (Round-Trip Time)",
+               "REP (Report)"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte pravdivá tvrzení: (3 správné)",
+         "answers":{
+            "correct":[
+               "IPv6 adresy jsou 4 krát delší než adresy IPv4",
+               "Protokol IPv6 vznikl kvůli postupnému vyčerpání adresního prostoru IPv4",
+               "IPv4 adresy se běžně zapisují v dekadické formě po osmicích bitů (tzn. oktety)"
+            ],
+            "incorrect":[
+               "IPv4 a IPv6 josu vzájemně kompatibilní",
+               "IPv4 a IPv6 adresy mají stejnou délku"
+            ]
+         }
+      },
+      {
+         "title":"Jakým způsobem přepíná rámce přepínač (switch)?",
+         "answers":{
+            "correct":[
+               "Přepíná rámce na základě MAC adresy"
+            ],
+            "incorrect":[
+               "Přepíná pakety na základě MAC adresy",
+               "Přepíná rámce na základě čísla portu",
+               "Přepíná pakety na základě IP adresy",
+               "Přepíná rámce na základě IP adresy"
+            ]
+         }
+      },
+      {
+         "title":"Protokol TCP (Transmission Control Protocol) (2 správné)",
+         "answers":{
+            "correct":[
+               "posílá zpět potvrzení pro pakety, které byly úspěšně přijaty",
+               "navazuje a ukončuje spojení"
+            ],
+            "incorrect":[
+               "pracuje na úrovni síťové vrstvy",
+               "je jednodušší a má menší záhlaví než protokol UDP (User Datagram Protocol)",
+               "není spojově orientovaný"
+            ]
+         }
+      },
+      {
+         "title":"Délka prefixu udává: (2 správné)",
+         "answers":{
+            "correct":[
+               "Počet hostů v podsíti",
+               "Počet jedniček v masce sítě"
+            ],
+            "incorrect":[
+               "Počet nul v masce sítě",
+               "Počet subnetů",
+               "Počet oktetů IP adresy"
+            ]
+         }
+      },
+      {
+         "title":"Tzv. výsledkové kódy, jakožto odpovědi na zadané příkazy se používají (3 správné)",
+         "answers":{
+            "correct":[
+               "U protokolu HTTP (HyperText Transfer Protocol)",
+               "U protokolu SMTP (Simple Mail Transfer Protocol)",
+               "U protokolu FTP (File Transfer Protocol)"
+            ],
+            "incorrect":[
+               "Jako odpovědi klienta na zprávu ze strany serveru",
+               "Jako příkazy od serveru nutící klienta vykonat určitou činnost"
+            ]
+         }
+      },
+      {
+         "title":"Při délce rámce 1250 bajtů a pravděpodobnosti bitové chyby při ptenosu rovn (10 na mínus 3) lze v jednom rámci při přijetí očekávat průměrně",
+         "answers":{
+            "correct":[
+               "10 bitových chyb"
+            ],
+            "incorrect":[
+               "1000 bitových chyb",
+               "1250 bitových chyb",
+               "12.5 bitových chyb",
+               "1 bitovou chybu"
+            ]
+         },
+         "comment":"1250 B = 10 000 b => 10<sup>4</sup> * 10<sup>-3</sup> = 10"
+      },
+      {
+         "title":"Pro detekci bitových chyb vzniklých při přenosu rámců se na straně příjemce nejčasteěji z důvodu vysoké spolehlivosti a efektivity používá technik (3 správné)",
+         "answers":{
+            "correct":[
+               "Cyklické redundantní kódy (CRC)",
+               "Paritní bity",
+               "Kontrolní součty jednotlivých bajtů rámce"
+            ],
+            "incorrect":[
+               "Technika výcenásobného přenosu",
+               "Technika opakovaného přenosu"
+            ]
+         }
+      },
+      {
+         "title":"Mezi způsoby komutace používané v současných počítačových sítích patří (2 správné)",
+         "answers":{
+            "correct":[
+               "Komutace buňek",
+               "Komutace paketů"
+            ],
+            "incorrect":[
+               "Komutace segmentů",
+               "Komutace fragmentů",
+               "Komutace soustav"
+            ]
+         },
+         "comment":"Dále pak komutace okruhů a komutace zpráv"
+      },
+      {
+         "title":"Která z těchto zařízení pracuje primárně na linkové (spojové) vrstvě:",
+         "answers":{
+            "correct":[
+               "Přepínač (switch)"
+            ],
+            "incorrect":[
+               "Router",
+               "Opakovač (repeater)",
+               "Rozbočovač (hub)",
+               "Směrovač"
+            ]
+         }
+      },
+      {
+         "title":"Mezi koncová zařízení počítačových sítí nepatří",
+         "answers":{
+            "correct":[
+               "Přístupové body"
+            ],
+            "incorrect":[
+               "VoIP telefony",
+               "Notebooky",
+               "Servery",
+               "Chytré telefony"
+            ]
+         }
+      },
+      {
+         "title":"Který z následujících systémů (či technik přenosu) nevyužívá techniku klouzavého okna? (3 správné)",
+         "answers":{
+            "correct":[
+               "Stop-and-Wait ARQ (Automatic Repeat Request)",
+               "TDMA (Time Division Multiple Access)",
+               "CSMA (Carrier Sense Multiple Access)"
+            ],
+            "incorrect":[
+               "Go-back-N ARQ (Automatic Repeat Request)",
+               "Selective repeat ARQ (Automatic Repeat Request)"
+            ]
+         }
+      },
+      {
+         "title":"Úprava hodnoty TTL (Time to live) se při použiží s ICMP (Internet Control Message Protocol) může použít pro (2 správné)",
+         "answers":{
+            "correct":[
+               "Zjištění směrovačů přítomných na trase k adresátovi paketu",
+               "Omezení maximálního počtu skoků, které daný paket bude schopen absolvovat"
+            ],
+            "incorrect":[
+               "Stanovení minimálního počtu skoků, které daný paket bude schopen absolvovat",
+               "Stanovení minimálního času (doby ve vteřinách) života paketu, který bude paket existovat v síti",
+               "Stanovení maximálního času (doby ve vteřinách) života paketu, který bude paket existovat v síti"
+            ]
+         }
+      },
+      {
+         "title":"Při kterém ze základních způsobů přenosu informace se vytváří fyzické spojení mezi koncovými účastníky komunikace?",
+         "answers":{
+            "correct":[
+               "Komutace okruhů"
+            ],
+            "incorrect":[
+               "Komutace buněk",
+               "Komutace zpráv",
+               "Komutace paketů"
+            ]
+         }
+      },
+      {
+         "title":"Kombinace fázového a amplitudováho klíčování",
+         "answers":{
+            "correct":[
+               "Zvyšuje počet bitů, které je možné přenést pomocí jendnoho symbolu"
+            ],
+            "incorrect":[
+               "Není možná",
+               "Je možná, ale nepoužívá se",
+               "Představuje kombinovanou změnu kmitočtu a amplitudy signálu"
+            ]
+         }
+      },
+      {
+         "title":"Jakým způsobem není možné zvýšit celkovou přenosovou kapacitu konkrétního kanálu (vedení)?",
+         "answers":{
+            "correct":[
+               "Čistě časovým dělením"
+            ],
+            "incorrect":[
+               "Čistě kmitočtovým dělením",
+               "Čistě vlnovým dělením",
+               "Čistě frekvenčním dělením"
+            ]
+         }
+      },
+      {
+         "title":"Co je hlavní úlohou spojové vrstvy?",
+         "answers":{
+            "correct":[
+               "Mění prostý tok bitů na spolehlivou cestu přenosu datových bloků - rámců"
+            ],
+            "incorrect":[
+               "Spojuje vzájemně fyzickou a transportní vrstvu",
+               "Spojuje fyzické vrstvy adresáta a odesílatele",
+               "Spojuje koncové procesy (aplikace), které jsou rozptýleny po internetu"
+            ]
+         }
+      },
+      {
+         "title":"Mezi metody zabezpečení proti chybám při přenosu na linkové vrstvě nepatří",
+         "answers":{
+            "correct":[
+               "Návěští"
+            ],
+            "incorrect":[
+               "Cyklické redundantní kontroly",
+               "Paritní bity",
+               "Kontrolní součty"
+            ]
+         }
+      },
+      {
+         "title":"Délka prefixu podsítě /17 odpovídá masce sítě",
+         "answers":{
+            "correct":[
+               "255.255.128.0"
+            ],
+            "incorrect":[
+               "255.255.0.0",
+               "255.255.255.0",
+               "255.255.255.255"
+            ]
+         }
+      },
+      {
+         "title":"Který z následujících výroků o logických adresách síťové vrstvy je pravdivý?",
+         "answers":{
+            "correct":[
+               "Slouží ke globální identifikaci daného uzlu"
+            ],
+            "incorrect":[
+               "Může jich být nekonečně mnoho",
+               "Jsou označované i jako MAC adresy",
+               "Definují koncové aplikace dané komunikace"
+            ]
+         }
+      },
+      {
+         "title":"Co není pravda o tzv. lavinovém směrování?",
+         "answers":{
+            "correct":[
+               "Tento způsob směrování zatěžuje síť minimálně."
+            ],
+            "incorrect":[
+               "Je to takový způsob sm+rování, kdy každý paket v každém uzlu je nakopírován a odeslán všemi linkami kromě příchozí.",
+               "Je to systém dobře odolný vůči poruchám linek.",
+               "Tento způsob směrování není hojně využíván v internetu"
+            ]
+         }
+      },
+      {
+         "title":"Které z následujících tvrzení o protokolu TCP není pravdivé:",
+         "answers":{
+            "correct":[
+               "Přenesená data (bajty) se nepotvrzují"
+            ],
+            "incorrect":[
+               "Komunikace má koncový charakter",
+               "TCP vytváří dojem propojení komunikujících procesů okruhem, kterým je možné přenášet proud bajtů",
+               "Strany mohou komunikovat oběma směry zároveň"
+            ]
+         }
+      },
+      {
+         "title":"Jaký je hlavní důvod vytvoření IPv6 protokolu?",
+         "answers":{
+            "correct":[
+               "Rozšíření adresního prostoru vzhledem k IPv4."
+            ],
+            "incorrect":[
+               "Zvýšení stability fungování internetové sítě",
+               "Podpora moderních 64 bitových procesorů",
+               "Zrušení rozlišování síťových rozhraní připojených k počítačové síti"
+            ]
+         }
+      },
+      {
+         "title":"Ozačte pravdivé tvrzení o protokolu FTP (File Transfer Protokol).",
+         "answers":{
+            "correct":[
+               "Protokol využívá pro přenos dvě transportní spojení"
+            ],
+            "incorrect":[
+               "Je to protokol transportní vrstvy",
+               "Protokol žádnám způsobem nerozlišuje komunikující strany",
+               "Protokol nevyužívá pro řízení přenosu předem definovaných příkaů a odpovědí"
+            ]
+         }
+      }
+   ]
+}

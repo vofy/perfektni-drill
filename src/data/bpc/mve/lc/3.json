@@ -1,0 +1,154 @@
+{
+    "title": "MVE - LC - Test 3 - Chyby přímých a nepřímých měření. Nejistoty měření",
+    "description": "MVE - LC - Test 3 - Chyby přímých a nepřímých měření. Nejistoty měření. Přepsáno z fektušky (úlohy pod číslem 5).",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Jaká je pravděpodobnost, že se měřená hodnota nachází v pásmu, jehož šířku udává rozšířená nejistota, pokud je koeficient rozšíření kr = 2.",
+            "answers": {
+                "correct": [
+                    "95%"
+                ],
+                "incorrect": [
+                    "90%",
+                    "99%",
+                    "63%"
+                ]
+            }
+        },
+        {
+            "title": "Jak se určí nejistota typu A?",
+            "answers": {
+                "correct": [
+                    "Zjišťuje se experimentálně opakovanými měřeními a představuje rozptyl hodnot opakovaných měření."
+                ],
+                "incorrect": [
+                    "Stanoví se jako odchylka správné hodnoty měřené veličiny od měřené hodnoty měřené veličiny.",
+                    "Stanoví se výpočtem jako průměr z naměřených hodnot zjištěných experimentálně opakovanými měřeními.",
+                    "Vzchází z kvantifikace možných zdrojů, kterou mohou způsobovat nejistotu tohoto typu.",
+                    "Stanoví se jako odchylka měřené hodnoty měřené veličiny od správné hodnoty měřené veličiny."
+                ]
+            }
+        },
+        {
+            "title": "Jak se určí nejistota typu B?",
+            "answers": {
+                "correct": [
+                    "Vychází z kvantifikace možných zdrojů, kterou mohou způsobovat nejistotu tohoto typu."
+                ],
+                "incorrect": [
+                    "Stanoví se výpočtem jako průměr z naměřených hodnot zjištěných experimentálně opakovanými měřeními.",
+                    "Stanoví se jako odchylka správné hodnoty měřené veličiny od měřené hodnoty měřené veličiny.",
+                    "Zjišťuje se experimentálně opakovanými měřeními a představuje rozptyl hodnot opakovaných měření.",
+                    "Stanoví se jako odchylka měřené hodnoty měřené veličiny od správné hodnoty měřené veličiny."
+                ]
+            }
+        },
+        {
+            "title": "Jak se určí kombinovaná nejistota?",
+            "answers": {
+                "correct": [
+                    "Získá se geometrickým součtem standardních nejistot typu A a typu B."
+                ],
+                "incorrect": [
+                    "Získá se jako součin standardních nejistot typu A a typu B a koeficientu rozšíření.",
+                    "Získá se jako součin standardních nejiistot typu A a typu B.",
+                    "Získá se aritmetickým součtem standardních nejistot typu A a typu B.",
+                    "Získá se jako rozdíl standardních nejisto typu A a typu B."
+                ]
+            }
+        },
+        {
+            "title": "Jaké jsou zdroje nejistot typu B?",
+            "answers": {
+                "correct": [
+                    "Zdroje nejistot typu B jsou různého původu, mohou to být například vlivy vázané na použité přístroje, vlivy okolního prostředí, vlivy metody, vlivy operátora, atd."
+                ],
+                "incorrect": [
+                    "Zdroje nejistot typu B jsou dány výrobcem a lze je najít v dokumentaci.",
+                    "Zdroje nejistot typu B jsou dány rozptylem hodnot při opakovaném měření a jejich mírou je výběrová směrodatná odchylka výběrového průměru."
+                ]
+            }
+        },
+        {
+            "title": "Jak je definována kompatibilita měření?",
+            "answers": {
+                "correct": [
+                    "Kompatibilita měření je definována jako vlastnost prokázaná při věech výsledcích měření stejné veličiny. Vyhodnocuje se překrýváním intervalů, jejichž velikost je dána hodnotou nejistoty výsledku měření."
+                ],
+                "incorrect": [
+                    "Kompatibilita měření je definována jako vlastnost prokázaná při některých výsledcích měření různých veličin.",
+                    "Kompatibilita měření je definována jako vlastnost prokázaná při věech výsledcích měření stejné veličiny. Vyhodnocuje se nepřekrýváním intervalů, jejichž velikost je dána hodnotou nejistoty výsledku měření."
+                ]
+            }
+        },
+        {
+            "title": "Co je to nejistota měření?",
+            "answers": {
+                "correct": [
+                    "Charakterizuje rozptyl hodnot, které by mohly být důvodně přisuzovány k měřené veličině s určitou pravděpodobností a které lze pokládat za hodnotu měřené veličiny.",
+                    "Nejistota charakterizuje přesnost měření."
+                ],
+                "incorrect": [
+                    "Je to odchylka měřené hodnoty měřené veličiny XM od správné hodnoty měřené veličiny XS",
+                    "Je to odchylka správné hodnoty měřené veličiny XS o měřené hodnoty měřené veličiny XM.",
+                    "Charakterizuje rozptyl hodnot opakovaných měření zkoumané měřené veličiny."
+                ]
+            },
+            "comment": "Nejistota charakterizuje přesnost měření. - Odpověď je částečně správně"
+        },
+        {
+            "title": "Jaké typy nejistot znáte?",
+            "answers": {
+                "correct": [
+                    "Nejistotu typu A, typu B, rozšířenou a kombinovanou"
+                ],
+                "incorrect": [
+                    "Absolutní a relativní",
+                    "Nejistotu typu A a typu B, absolutní nejistota",
+                    "Nejistotu rozšířenou a absolutní"
+                ]
+            }
+        },
+        {
+            "title": "Co je to rozšířená nejistota?",
+            "answers": {
+                "correct": [
+                    "Získá se jako součin standardní kombinované nejistoty a koeficientu rozšíření."
+                ],
+                "incorrect": [
+                    "Získá se aritemtickým součtem standardních nejistot typu A a typu B.",
+                    "Získá se jako rozdíl standardních nejistot typu A a typu B.",
+                    "Získá se geometrickým součtem standardních nejistot typu A a typu B.",
+                    "Získá se jako součin standardních nejistot typu A a typu B a koeficientu rozšíření.",
+                    "Získá se jako součin standardních nejistot typu A a typu B."
+                ]
+            }
+        },
+        {
+            "title": "Jak se stanoví celková nejistota typu B pro více zdrojů?",
+            "answers": {
+                "correct": [
+                    "Celková nejistota typu B je dána geometrickým součtem nejistot jednotlivých zdrojů."
+                ],
+                "incorrect": [
+                    "Celková nejistota typu B je dána průměřem nejistot jednotlivých zdrojů",
+                    "Celková nejistota typu B je dána aritmetickým součinem nejistot jednotlivých zdrojů",
+                    "Celková nejistota typu B je dána aritmetickým součtem nejistot jednotlivch zdrjů."
+                ]
+            }
+        },
+        {
+            "title": "Při měření efektivní hodnoty napětí harmonického signálu byly stanoveny intervaly, vek terých se s 95 % pravděpodobností nachází měřená efektivní hodnota napětí, pro dva typy multimetru. Pro multimetr Agilent 34401A byl stanoven interval (8,15 V; 8,16 V) a pro multimetr METEX M-3850 byl stanoven interval (8,17 V; 8,20V). Jsou měření oběma multimetry kompatibilní?",
+            "answers": {
+                "correct": [
+                    "Ne, protože se intervaly výskytu nepřekrývají."
+                ],
+                "incorrect": [
+                    "Ano, protože se intervaly výskytu nepřekrývají.",
+                    "Nelze určit, je potřeba znát ještě naměřenou efektivní hodnotu napětí a frekvenci měřeného signálu."
+                ]
+            }
+        }
+    ]
+}

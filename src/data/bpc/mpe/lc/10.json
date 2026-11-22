@@ -1,0 +1,86 @@
+{
+  "title": "Úloha 10",
+  "description": "",
+  "tasks": [
+    {
+      "title": "Jaká je jednotka relativní permitivity?",
+      "answers": {
+        "correct": [
+          "[-] - Nemá jednotku"
+          ]
+      }
+    },
+    {
+      "title": "Jaký je správný vzorec pro výpošet relativní permitivity ε<sub>r</sub>",
+      "answers": {
+        "correct": [
+          "ε<sub>r</sub> = C<sub>x</sub> / C<sub>0</sub>"
+          ]
+      }
+    },
+    {
+      "title": "Jaká je jednotka absolutní permitivity?",
+      "answers": {
+        "correct": [
+          "F.m<sup>-1</sup>"
+          ]
+      }
+    },
+    {
+      "title": "Jaká je vzájemná poloha fázorů intenzity elektrického pole E^ a elektrické indukce D^ při polarizaci dielektrika střídavým elektrickým polem ?",
+      "answers": {
+        "correct": [
+          "Elektrická indukce se zpožďuje za intenzitou elektrického pole"
+          ]
+      }
+    },
+    {
+      "title": "Uveďte vztah pro vžpošet efektivná plochy měřící elektrody S<sub>ef</sub>",
+      "answers": {
+        "correct": [
+          "s<sub>ef</sub>=π * ((d<sub>m</sub> + B* C)<sup>2</sup> / 4)"
+          ]
+      }
+    },
+    {
+      "title": "Jakým způsobem se mení odpor většiny kovových materiálů s rostoucí teplotou v intervalu blízkému pokojové teplotě?",
+      "answers": {
+        "correct": [
+          "Odpor roste lineárně"
+          ]
+      }
+    },
+    {
+      "title": "Který z uvedených materiálů má nejlepší vodivost při běžných podmínkách?",
+      "answers": {
+        "correct": [
+          "stříbro"
+          ]
+      }
+    },
+    {
+      "title": "Jak se značí pohyblivost elektronů?",
+      "answers": {
+        "correct": [
+          "μ"
+          ]
+      }
+    },
+    {
+      "title": "Teplotní součinitel rezistivity odporových materiálů [K<sup>-1</sup>] má při teplotě 20 °C hodnotu:",
+      "answers": {
+        "correct": [
+          "blízké 0"
+          ]
+      }
+    },
+    {
+      "title": "Při zmenšení průřezu vodiče se jeho odpor:",
+      "answers": {
+        "correct": [
+          "Zvětší"
+          ]
+      }
+    }
+  ]
+}

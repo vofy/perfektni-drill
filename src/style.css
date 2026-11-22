@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+}
+
+.dark {
+  --ui-bg: var(--color-black);
+}
+
+/* Monochrome primary like comark.dev: black in light mode, white in dark mode. */
+:root {
+  --ui-primary: var(--ui-color-neutral-900);
+}
+.dark {
+  --ui-primary: var(--ui-color-neutral-50);
+}
