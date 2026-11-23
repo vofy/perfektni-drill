@@ -9,10 +9,7 @@ const alt = file.split('/').pop().split('.')[0]
 
 <template>
   <div class="flex flex-col gap-6 py-10">
-    <div class="space-y-3">
-      <h1 class="text-4xl font-medium text-highlighted">Vítejte na PerFEKTním drillu!</h1>
-      <p class="text-lg text-muted">Vyhledávání a procvičování testových otázek z FEKT VUT. Vyberte test v menu.</p>
-    </div>
+    <h1 class="text-4xl font-medium text-highlighted">Vítej na PerFEKTním drillu!</h1>
     <UAlert
       v-if="redirected"
       color="warning"
