@@ -22,7 +22,7 @@ const alt = file.split('/').pop().split('.')[0]
       </template>
     </UAlert>
     <figure class="flex flex-col items-center gap-3 rounded-lg border border-default bg-elevated/50 p-4">
-      <figcaption class="text-muted">Tady máš náhodný meme, ať se ti dneska líp drillí!</figcaption>
+      <figcaption class="text-muted">Tady máš náhodný meme, ať se ti dneska lépe drillí!</figcaption>
       <img class="max-h-[60vh] rounded-md border border-default" :src="src" :alt="alt" />
     </figure>
   </div>
