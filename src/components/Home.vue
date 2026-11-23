@@ -1,4 +1,7 @@
 <script setup>
+import { useRoute } from 'vue-router'
+
+const redirected = useRoute().query.from === 'fekt.tk'
 const memes = Object.entries(import.meta.glob('../memes/*', { eager: true, query: '?url', import: 'default' }))
 const [file, src] = memes[Math.floor(Math.random() * memes.length)]
 const alt = file.split('/').pop().split('.')[0]
@@ -11,13 +14,14 @@ const alt = file.split('/').pop().split('.')[0]
       <p class="text-lg text-muted">Vyhledávání a procvičování testových otázek z FEKT VUT. Vyberte test v menu.</p>
     </div>
     <UAlert
+      v-if="redirected"
       color="warning"
       variant="subtle"
       icon="i-lucide-triangle-alert"
       title="Změna adresy"
     >
       <template #description>
-        Drill se přesunul z domény fekt.tk na
+        Drill se přesunul na adresu
         <a href="https://vofy.github.io/perfektni-drill/" class="font-medium underline">vofy.github.io/perfektni-drill</a>.
       </template>
     </UAlert>
